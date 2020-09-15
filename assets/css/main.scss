@@ -3,18 +3,19 @@
 
 // Font.
 $font: (
-  primary: ("Nunito Sans",sans-serif)
+  primary: ("Quicksand",sans-serif)
 );
 
 // Palette.
 $palette: (
-  primary:           #4c5267,
-  secondary:           darken(#4c5267, 15%),
-  meta:                lighten(#4c5267, 20%),
-  border:              lighten(#4c5267, 58%),
-  bg:                #f7f9fb,
-  accent:            #0072ff,
-  accent-alt:        #00c6ff,
+  primary:           #6A86D9,
+  secondary:           darken(#6A86D9, 20%),
+  meta:                lighten(#6A86D9, 20%),
+  border:              lighten(#6A86D9, 58%),
+  bg:                #F2F2F2,
+  // accent:            #CDA3D9,
+  accent:            #b06dc3,
+  accent-alt:        #62D9D9,
   accent-purple:     #b5267b,
   accent-purple-alt: #632695,
   accent-green:      #438945,
