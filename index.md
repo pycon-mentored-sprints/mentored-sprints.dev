@@ -46,8 +46,8 @@ sections:
           Bokeh is an interactive visualization library for modern web browsers. It provides elegant, concise construction of versatile graphics, and affords high-performance interactivity over large or streaming datasets. 
   - section_id: call-to-action
     type: section_cta
-    title: interested in organising your own mentored sprint?
-    subtitle: Do you run a community, conference or open source project and are interested in running a mentored sprint? Check this useful guide!
+    title: Interested in organising your own mentored sprint?
+    subtitle: Do you run a community, conference or open source project and would like to organise a mentored sprint? Check this useful guide!
     actions:
       - label: Getting started
         url: /signup

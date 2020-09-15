@@ -1,10 +1,9 @@
 ---
-title: The Advantages and Disadvantages of Working from Home
+title: Hacktoberfest - mentored sprints
 excerpt: >-
-  Work at home parent is an entrepreneur who works from home and integrates
-  parenting into his or her business activities.
-author: _data/authors/jane-doe.yaml
-date: '2019-04-22'
+  Join folks from Kedro, Rasa and Terminus DB.
+author: 
+date: '2020-10-15'
 thumb_image: images/9_thumb.jpg
 image: images/9.jpg
 layout: post
