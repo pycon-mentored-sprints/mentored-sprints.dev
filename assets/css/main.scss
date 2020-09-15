@@ -11,6 +11,7 @@ $palette: (
   primary:           #6A86D9,
   secondary:           darken(#6A86D9, 20%),
   meta:                lighten(#6A86D9, 20%),
+  meta-alt:            darken(#62D9D9, 10%),
   border:              lighten(#6A86D9, 58%),
   bg:                #F2F2F2,
   // accent:            #CDA3D9,
@@ -36,3 +37,4 @@ $palette: (
 @import "imports/footer";
 @import "imports/palettes";
 @import "imports/banner";
+@import "imports/events";

@@ -4,6 +4,8 @@ permalink: "/:title/"
 collections:
   posts:
     permalink: "/posts/:title/"
+  events:
+    permalink: "/events/:title/"
 palette: blue
 header:
   title: Mentored sprints
@@ -14,13 +16,13 @@ header:
       url: /
     - label: Events
       url: /events
-    - label: Pricing
-      url: /pricing
-    - label: Style Guide
-      url: /style-guide
-    - label: Sign Up
-      url: /signup
-      primary: true
+    - label: Community Handbook
+      url: /handbook
+    - label: Team
+      url: /team
+    # - label: Sign Up
+    #   url: /signup
+    #   primary: true
 footer:
   logo_img: images/logo/logo_alt.svg
   # tagline:
