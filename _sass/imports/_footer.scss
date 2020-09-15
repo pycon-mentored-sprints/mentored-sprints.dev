@@ -3,8 +3,9 @@
  * ----------------------------------------------------------------------------
  */
 #colophon {
-  background: _palette(secondary);
-  color: _palette(meta);
+  // background: _palette(secondary);
+  background: _palette(light-bg);
+  color: _palette(bg);
 
   a {
     color: inherit;
@@ -12,7 +13,7 @@
     &:hover,
     &:focus {
       border-color: currentColor;
-      color: _palette(border);
+      color: _palette(secondary);
     }
   }
 }
@@ -46,7 +47,8 @@
 }
 
 .widget-title {
-  color: _palette(border);
+  // color: _palette(border);
+  color: _palette(secondary);
   font-size: 1rem;
   margin: 0 0 1.33333rem;
 }

@@ -3,8 +3,9 @@
  * ----------------------------------------------------------------------------
  */
 .site-header {
-  background: #fff;
-  color: _palette(secondary);
+  background: _palette(nav);
+  // color: _palette(secondary);
+  color: #fff;
   padding-bottom: 1.33333em;
   padding-top: 1.33333em;
 }
@@ -94,7 +95,7 @@
 @supports (position: sticky) or (position: -webkit-sticky) {
   @media only screen and (min-width: 801px) {
     .site-header {
-      background: #fff;
+      background: _palette(nav);
       position: -webkit-sticky;
       position: sticky;
       top:0;
