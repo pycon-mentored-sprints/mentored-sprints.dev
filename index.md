@@ -19,41 +19,37 @@ sections:
       Check out the upcoming mentored sprints!
     features:
       - title: Hacktoberfest 2020
-        image: images/feature1.png
+        image: images/wocintech1.jpg
         content: >-
-          Join us for a Hacktoberfest contribution sprint. Featuring Kedro, Terminus DB and RASA.
+          Let's celebrate Hacktoberfest together! Join folks from Kedro, Terminus DB and Rasa.
         actions:
           - label: Learn More
             url: /features
   - section_id: projects
-    type: section_reviews
+    type: section_projects
     background: white
     title: Past participating projects
     subtitle: >-
       Some open source projects that have been involved in mentored sprints.
-    reviews:
-      - author: AdaFruit - CircuitPython
+    projects:
+      - project: AdaFruit - CircuitPython
         avatar: https://circuitpython.org/assets/images/logo.png
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Hypothesis
+          CircuitPython is a programming language designed to simplify experimenting and learning to code on low-cost microcontroller boards.
+      - project: Hypothesis
         avatar: images/review2.jpg
         content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-      - author: Python
+          Hypothesis is a Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for. It is stable, powerful and easy to add to any existing test suite.
+      - project: Bokeh
         avatar: images/review3.jpg
         content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          Bokeh is an interactive visualization library for modern web browsers. It provides elegant, concise construction of versatile graphics, and affords high-performance interactivity over large or streaming datasets. 
   - section_id: call-to-action
     type: section_cta
-    title: Organise your own mentored sprint!
+    title: interested in organising your own mentored sprint?
     subtitle: Do you run a community, conference or open source project and are interested in running a mentored sprint? Check this useful guide!
     actions:
-      - label: Get Started
+      - label: Getting started
         url: /signup
         primary: true
   - section_id: recent-posts

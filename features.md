@@ -1,7 +1,7 @@
 ---
-title: Features
+title: Events
 sections:
-  - section_id: features
+  - section_id: events
     type: section_content
     background: gray
     image: images/feature1.png

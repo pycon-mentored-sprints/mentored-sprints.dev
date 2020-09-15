@@ -7,13 +7,13 @@ collections:
 palette: blue
 header:
   title: Mentored sprints
-  logo_img: images/logo/blue-pink-text.png
+  logo_img: images/logo/logo_alt.svg
   has_nav: true
   nav_links:
     - label: Home
       url: /
-    - label: Features
-      url: /features
+    - label: Events
+      url: /events
     - label: Pricing
       url: /pricing
     - label: Style Guide
@@ -22,7 +22,7 @@ header:
       url: /signup
       primary: true
 footer:
-  logo_img: images/logo/blue-pink-text.png
+  logo_img: images/logo/logo_alt.svg
   # tagline:
   has_nav: true
   nav_title: Mentored Sprints
@@ -49,7 +49,7 @@ footer:
     #   new_window: true
   has_subscribe: true
   subscribe_title: Subscribe
-  subscribe_content: Stay up to date with upcoming sprints and developments.
+  subscribe_content: Stay up to date with upcoming sprints and developments. Join our mailing list here!
   content: "&copy; Mentored Sprints 2018-2020"
   links:
     - label: Mentored Sprints
