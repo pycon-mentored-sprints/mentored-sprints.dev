@@ -13,6 +13,7 @@ actions:
 layout: event
 ---
 
+About the event
 
 ## A title
 

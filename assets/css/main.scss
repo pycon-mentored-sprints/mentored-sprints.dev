@@ -10,7 +10,7 @@ $font: (
 $palette: (
   primary:           #feaea3,
   secondary:         #ff5f7c,
-  meta:              lighten(#feaea3, 5%),
+  meta:              darken(#feaea3, 5%),
   meta-alt:          darken(#95adff, 10%),
   border:            lighten(#feaea3, 58%),
   bg:                #171853,

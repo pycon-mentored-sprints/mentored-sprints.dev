@@ -24,7 +24,7 @@ sections:
           Let's celebrate Hacktoberfest together! Join folks from Kedro, Terminus DB and Rasa.
         actions:
           - label: Learn More
-            url: /features
+            url: /events
   - section_id: projects
     type: section_projects
     background: dark

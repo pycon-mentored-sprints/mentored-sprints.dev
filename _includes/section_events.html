@@ -1,5 +1,5 @@
 {% assign section = include.section %}
-<section id="{{ section.section_id }}" class="block posts-block bg-{{ section.background }} outer">
+<section id="{{ section.section_id }}" class="block events-block bg-{{ section.background }} outer">
   <div class="block-header inner-small">
     {% assign title_is_not_empty = section.title | is_not_empty %}
     {% if title_is_not_empty %}
@@ -13,32 +13,32 @@
     {% endif %}
   </div><!-- .block-header -->
   <div class="inner">
-    <div class="post-feed">
-      {% assign display_posts = '/events' | get_pages | sort: 'date' %}
+    <div class="event-feed">
+      {% assign display_events = '/events' | get_pages | sort: 'date' %}
       {% assign slice_length = 5 | minus: 0 %}
-      {% assign recent_posts = display_posts | slice: 0, slice_length %}
-      {% for post in recent_posts %}
-      <article class="post post-card">
-        <div class="post-card-inside">
-          {% assign thumb_image_is_not_empty = post.thumb_image | is_not_empty %}
+      {% assign recent_events = display_events | slice: 0, slice_length %}
+      {% for event in recent_events %}
+      <article class="event event-card">
+        <div class="event-card-inside">
+          {% assign thumb_image_is_not_empty = event.thumb_image | is_not_empty %}
           {% if thumb_image_is_not_empty %}
-          <a class="post-card-thumbnail" href="{{ post.url | relative_url }}">
-            <img class="thumbnail" src="{{ post.thumb_image | relative_url }}" alt="{{ post.title }}" />
+          <a class="event-card-thumbnail" href="{{ event.url | relative_url }}">
+            <img class="thumbnail" src="{{ event.thumb_image | relative_url }}" alt="{{ event.title }}" />
           </a>
           {% endif %}
-          <div class="post-card-content">
-            <header class="post-header">
-              <h3 class="post-title"><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a></h3>
+          <div class="event-card-content">
+            <header class="event-header">
+              <h3 class="event-title"><a href="{{ event.url | relative_url }}" rel="bookmark">{{ event.title }}</a></h3>
             </header>
-            <div class="post-excerpt">
-              {{ post.excerpt | markdownify }}
+            <div class="event-excerpt">
+              {{ event.excerpt | markdownify }}
             </div>
 
-            {% include event_footer.html page=post date_type='short' %}
-          </div><!-- .post-card-content -->
-        </div><!-- .post-card-inside -->
-      </article><!-- .post -->
+            Date: {% include event_footer.html page=event date_type='short' %}
+          </div><!-- .event-card-content -->
+        </div><!-- .event-card-inside -->
+      </article><!-- .event -->
       {% endfor %}
-    </div><!-- .post-feed -->
+    </div><!-- .event-feed -->
   </div><!-- .inner -->
 </section><!-- .block -->

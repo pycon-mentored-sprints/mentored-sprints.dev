@@ -562,10 +562,13 @@
 .block {
   &.bg-dark {
     color: _palette(border);
-    &.block-header{
-      &.block-title{
-        color: turquoise;
-      }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: _palette(accent);
     }
   }
   &.bg-white {
@@ -577,7 +580,29 @@
     .plan-inside {
       box-shadow: 0 3px 10px 0 rgba(_palette(primary),.15);
     }
+
+    button,
+    input[type="submit"],
+    input[type="button"],
+    input[type="reset"],
+    .button {
+      background: transparent;
+      border-color:_palette(primary);
+      color: _palette(primary);
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: _palette(primary);
+        color: #fff;
+      }
+    }
+
+    .underline:after {
+      border-color: currentColor;
+    }
   }
+
   &.bg-pop {
     background: #fff url(https://res.cloudinary.com/nezahualcoyotl/image/upload/v1600183078/Asset_13_p7qugm.svg) no-repeat bottom right;
     background-size: auto 60%;
