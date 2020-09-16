@@ -11,7 +11,7 @@
       <div class="cell block-content">
         {% assign title_is_not_empty = section.title | is_not_empty %}
         {% if title_is_not_empty %}
-        <h2 class="block-title underline">{{ section.title }}</h2>
+        <h2 class="block-title-alt underline">{{ section.title }}</h2>
         {% endif %}
         <div class="block-copy">
           {{ section.content | markdownify }}
@@ -19,7 +19,7 @@
         {% assign actions_is_not_empty = section.actions | is_not_empty %}
         {% if actions_is_not_empty %}
         <p class="block-buttons">
-          
+
           {% include cta_buttons.html actions=section.actions %}
         </p>
         {% endif %}

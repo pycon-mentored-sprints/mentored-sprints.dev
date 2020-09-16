@@ -3,7 +3,7 @@ title: Events
 sections:
   - section_id: events
     type: section_content
-    background: gray
+    background: dark
     image: 
     title: Upcoming Events
     content:  Check out the scheduled events for the following months.

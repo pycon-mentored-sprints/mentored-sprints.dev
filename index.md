@@ -27,21 +27,24 @@ sections:
             url: /features
   - section_id: projects
     type: section_projects
-    background: gray
+    background: dark
     title: Projects
     subtitle: >- 
       Meet some of the projects we have worked with
     projects:
       - project: AdaFruit - CircuitPython
-        avatar: https://circuitpython.org/assets/images/logo.png
+        avatar: images/projects/circuitpython.png
+        url: https://github.com/adafruit/circuitpython
         content: >-
           CircuitPython is a programming language designed to simplify experimenting and learning to code on low-cost microcontroller boards.
       - project: Hypothesis
-        avatar: images/review2.jpg
+        avatar: images/projects/hypothesis.png
+        url: https://github.com/HypothesisWorks/hypothesis
         content: >-
           Hypothesis is a Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for. It is stable, powerful and easy to add to any existing test suite.
       - project: Bokeh
-        avatar: images/review3.jpg
+        avatar: images/projects/bokeh.png
+        url: https://github.com/bokeh/bokeh
         content: >-
           Bokeh is an interactive visualization library for modern web browsers. It provides elegant, concise construction of versatile graphics, and affords high-performance interactivity over large or streaming datasets. 
   - section_id: call-to-action
@@ -54,7 +57,7 @@ sections:
         primary: true
   # - section_id: recent-posts
   #   type: section_posts
-  #   background: gray
+  #   background: dark
   #   title: Latest Posts
 layout: landing
 ---

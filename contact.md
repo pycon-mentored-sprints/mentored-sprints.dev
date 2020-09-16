@@ -3,7 +3,7 @@ title: Contact
 sections:
   - section_id: contact
     type: section_contact
-    background: gray
+    background: dark
     title: Contact
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
