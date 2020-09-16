@@ -240,13 +240,16 @@
   }
 }
 
+// Project 
+
 .project-text {
-  margin-bottom: 1.5em;
-  padding-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 1.5em;
   position: relative;
+  color: _palette(dark);
 }
 
-.project-footer {
+.project-header {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
@@ -255,8 +258,8 @@
   display: flex;
 
   .project-name {
-    border-bottom: 2px solid _palette(accent);
-    color: _palette(secondary);
+    border-bottom: 3px solid _palette(accent);
+    color: _palette(accent);
     font-size: inherit;
     font-weight: bold;
     margin: 0;}
@@ -268,6 +271,7 @@
     width: 60px;
   }
   }
+
 
 @media only screen and (min-width: 741px) {
   .reviews-block {
@@ -556,8 +560,17 @@
 }
 
 .block {
+  &.bg-gray {
+    color: _palette(border);
+    &.block-header{
+      &.block-title{
+        color: turquoise;
+      }
+    }
+  }
   &.bg-white {
     background: #fff;
+    color: _palette(dark);
 
     .post-card-inside,
     .review-inside,
@@ -565,11 +578,24 @@
       box-shadow: 0 3px 10px 0 rgba(_palette(primary),.15);
     }
   }
+  &.bg-pop {
+    background: #fff url(https://res.cloudinary.com/nezahualcoyotl/image/upload/v1600183078/Asset_13_p7qugm.svg) no-repeat bottom right;
+    background-size: auto 60%;
+    color: _palette(dark);
+    min-height: 30vw;
+  }
+
+  &.bg-line {
+    background: #fff url(https://res.cloudinary.com/nezahualcoyotl/image/upload/v1600185534/Asset_15_ji8pnk.svg) no-repeat bottom left;
+    background-size: 100% auto;
+    color: _palette(dark);
+    min-height: 15vw;
+  }
 
   &.bg-accent {
-    background: _palette(accent);
-    background: -webkit-linear-gradient(left,_palette(accent), _palette(accent-alt));
-    background: linear-gradient(to right,_palette(accent), _palette(accent-alt));
+    background: _palette(secondary);
+    background: -webkit-linear-gradient(left,_palette(secondary), _palette(primary));
+    background: linear-gradient(to right,_palette(secondary), _palette(primary));
     color: #fff;
 
     a {
@@ -603,14 +629,15 @@
     input[type="button"],
     input[type="reset"],
     .button {
-      background: #fff;
-      border-color: #fff;
-      color: _palette(primary);
+      background: transparent;
+      border-color:_palette(border);
+      color: _palette(border);
 
       &:hover,
       &:focus,
       &:active {
-        opacity: 0.85;
+        background: _palette(border);
+        color: _palette(secondary);
       }
     }
 
@@ -633,3 +660,4 @@
     padding-top: 0;
   }
 }
+

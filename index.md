@@ -6,17 +6,17 @@ sections:
     image: images/logo/hex-sticker.svg
     title: Mentored Sprints
     content: >-
-      Making contribution sprints friendlier and more accessible to all.
+      Making open source contribution sprints friendlier and more accessible to all.
     actions:
       - label: Learn More
         url: /about
         primary: true
   - section_id: upcoming_events
     type: section_features
-    background: gray
+    background: white
     title: Upcoming Events
     subtitle: >-
-      Check out the upcoming mentored sprints!
+      Find when the next mentored sprints event is
     features:
       - title: Hacktoberfest 2020
         image: images/wocintech1.jpg
@@ -27,10 +27,10 @@ sections:
             url: /features
   - section_id: projects
     type: section_projects
-    background: white
-    title: Past participating projects
-    subtitle: >-
-      Some open source projects that have been involved in mentored sprints.
+    background: gray
+    title: Projects
+    subtitle: >- 
+      Meet some of the projects we have worked with
     projects:
       - project: AdaFruit - CircuitPython
         avatar: https://circuitpython.org/assets/images/logo.png
@@ -52,9 +52,9 @@ sections:
       - label: Getting started
         url: /signup
         primary: true
-  - section_id: recent-posts
-    type: section_posts
-    background: gray
-    title: Latest Posts
+  # - section_id: recent-posts
+  #   type: section_posts
+  #   background: gray
+  #   title: Latest Posts
 layout: landing
 ---

@@ -19,7 +19,7 @@
       {% for project in section.projects %}
       <blockquote class="cell review">
         <div class="review-inside">
-          <footer class="project-footer">
+          <footer class="project-header">
             {% assign avatar_is_not_empty = project.avatar | is_not_empty %}
             {% if avatar_is_not_empty %}
             <img class="project-avatar" src="{{ project.avatar | relative_url }}" alt="Project logo">

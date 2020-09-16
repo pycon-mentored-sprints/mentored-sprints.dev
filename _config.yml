@@ -4,12 +4,10 @@ permalink: "/:title/"
 collections:
   posts:
     permalink: "/posts/:title/"
-  events:
-    permalink: "/events/:title/"
 palette: blue
 header:
   title: Mentored sprints
-  logo_img: images/logo/logo_alt.svg
+  logo_img: images/logo/logo_alt.png
   has_nav: true
   nav_links:
     - label: Home
@@ -24,7 +22,7 @@ header:
     #   url: /signup
     #   primary: true
 footer:
-  logo_img: images/logo/logo_alt.svg
+  logo_img: images/logo/logo.svg
   # tagline:
   has_nav: true
   nav_title: Mentored Sprints
