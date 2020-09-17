@@ -667,10 +667,10 @@
     }
   }
 
-  &.bg-gradients {
+  &.bg-gradient {
     background: _palette(secondary);
-    background: -webkit-linear-gradient(left,_palette(secondary), _palette(primary));
-    background: linear-gradient(to right,_palette(secondary), _palette(primary));
+    background: -webkit-linear-gradient(left,_palette(primary), _palette(secondary));
+    background: linear-gradient(to right,_palette(primary), _palette(secondary));
     color: #fff;
 
     a {

@@ -28,60 +28,61 @@ layout: body
         {{ content }}
       </div><!-- .event-content -->
 
-      <section id="register now" class="block cta-block bg-primary outer">
-        <div class="inner-large">
-          <div class="grid">
-            <div class="cell block-content">
-              <h3 class="block-title">Registration is open</h3>
+  </div><!-- .grid -->
+</div><!-- .inner -->
+{% assign action = page.actions | is_not_empty %}
+{% if action %}
+<section id="call-to-action" class="block cta-block bg-{{ page.actions.background }} outer">
+  <div class="inner-large">
+    <div class="grid">
+      <div class="cell block-content">
+        <h4 class="block-title">{{page.actions.text}}</h4>
+      </div><!-- .block-content -->
+      <p class="cell block-buttons">
+        <a href="{{page.actions.url}}" class="button secondary" target="_blank">{{page.actions.action}}</a>
+      </p>
+    </div><!-- .grid -->
+  </div><!-- .inner -->
+</section><!-- .cta -->
+{% endif %}
+</section><!-- .hero -->
 
-            </div><!-- .block-content -->
-            {% assign actions_is_not_empty = page.actions | is_not_empty %}
-            {% if actions_is_not_empty %}
-            <p class="cell block-buttons">
+</article><!-- .event -->
 
-              {% include cta_buttons.html actions=page.actions %}
-            </p>
-            {% endif %}
-          </div><!-- .grid -->
-        </div><!-- .inner -->
-      </section><!-- .hero -->
-
-    </article><!-- .event -->
-
-    <!-- Next/previous event navigation TBD -->
-    <!--
-    <nav class="read-next">
-      <h2 class="read-next-title">Read Next</h2>
-      <div class="event-feed">
-        <article class="event event-card">
-          <div class="event-card-inside">
-            <a class="event-card-thumbnail" href="#"><img src="#" alt="" /></a>
-            <div class="event-card-content">
-              <header class="event-header">
-                <h3 class="event-title"><a href="#" rel="bookmark">Previous event Title</a></h3>
-              </header>
-              <footer class="event-meta">
-                <time class="published" datetime="">Previous event date</time>
-              </footer>
-            </div>
-          </div>
-        </article>
-        <article class="event event-card">
-          <div class="event-card-inside">
-            <a class="event-card-thumbnail" href="#"><img src="#" alt="" /></a>
-            <div class="event-card-content">
-              <header class="event-header">
-                <h3 class="event-title"><a href="#" rel="bookmark">Next event Title</a></h3>
-              </header>
-              <footer class="event-meta">
-                <time class="published" datetime="">Next event date</time>
-              </footer>
-            </div>
-          </div>
-        </article>
+<!-- Next/previous event navigation TBD -->
+<!-- 
+<nav class="read-next">
+  <h2 class="read-next-title">More events</h2>
+  <div class="event-feed">
+    <article class="event event-card">
+      <div class="event-card-inside">
+        <a class="event-card-thumbnail" href="#"><img src="#" alt="" /></a>
+        <div class="event-card-content">
+          <header class="event-header">
+            <h3 class="event-title"><a href="#" rel="bookmark">Previous event Title</a></h3>
+          </header>
+          <footer class="event-meta">
+            <time class="published" datetime="">Previous event date</time>
+          </footer>
+        </div>
       </div>
-    </nav>
-    -->
+    </article>
+    <article class="event event-card">
+      <div class="event-card-inside">
+        <a class="event-card-thumbnail" href="#"><img src="#" alt="" /></a>
+        <div class="event-card-content">
+          <header class="event-header">
+            <h3 class="event-title"><a href="#" rel="bookmark">Next event Title</a></h3>
+          </header>
+          <footer class="event-meta">
+            <time class="published" datetime="">Next event date</time>
+          </footer>
+        </div>
+      </div>
+    </article>
+  </div>
+</nav> -->
 
-  </div><!-- .inner-medium -->
+
+</div><!-- .inner-medium -->
 </div><!-- .outer-->
