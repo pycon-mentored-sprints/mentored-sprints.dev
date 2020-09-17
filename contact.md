@@ -6,8 +6,7 @@ sections:
     background: dark
     title: Contact
     content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus
-      tortor pretium ligula.
+      Please fill in this form if you want to get in touch with the core Mentored Sprints team.
+      We will be in touch as soon as we can.
 layout: landing
 ---

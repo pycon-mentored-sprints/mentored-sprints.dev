@@ -1,8 +1,7 @@
 ---
-title: About Us
+title: About Mentored Sprints
 subtitle: >-
-  This is an optional subtitle. It can be used to describe what this page is
-  about.
+  Making contribution sprints more accesible and friendlier to all.
 image: images/wocintech1.jpg
 layout: page
 ---
