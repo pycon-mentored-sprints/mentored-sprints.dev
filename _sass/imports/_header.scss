@@ -3,8 +3,7 @@
  * ----------------------------------------------------------------------------
  */
 .site-header {
-  background: _palette(nav);
-  // color: _palette(secondary);
+  background: _palette(bg);
   color: #fff;
   padding-bottom: 1.33333em;
   padding-top: 1.33333em;
@@ -95,7 +94,7 @@
 @supports (position: sticky) or (position: -webkit-sticky) {
   @media only screen and (min-width: 801px) {
     .site-header {
-      background: _palette(nav);
+      background: _palette(bg);
       position: -webkit-sticky;
       position: sticky;
       top:0;
@@ -103,7 +102,7 @@
     }
 
     .has--scrolled .site-header {
-      box-shadow: 0 1px 4px 0 rgba(_palette(primary),.1);
+      box-shadow: 0 1px 4px 0 rgba(_palette(bg),.1);
     }
   }
 }

@@ -10,6 +10,15 @@
   margin-bottom: 2.5rem;
   text-align: center;
 
+  h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: _palette(accent);
+    }
+
   .post-title {
     margin: 0 0 1.66667rem;
 
@@ -26,11 +35,12 @@
 }
 
 .post-subtitle {
-  border-bottom: 1px solid _palette(border);
+  border-bottom: 1px solid _palette(accent);
   font-size: 1.33333rem;
   line-height: 1.5;
   margin-bottom: 1.66667rem;
   padding-bottom: 1.33333rem;
+  color: _palette(accent)
 }
 
 .post-thumbnail {
@@ -47,6 +57,10 @@
   font-size: 0.88889rem;
   line-height: 1.5;
   margin-bottom: 1.66667rem;
+}
+
+.post-content{
+  color: _palette(dark);
 }
 
 /* Post feed */

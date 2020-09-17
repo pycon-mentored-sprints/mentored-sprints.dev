@@ -2,8 +2,14 @@
  * Structure
  * ----------------------------------------------------------------------------
  */
+ 
 .outer {
   padding: 4.16667rem 4vw 3.33333rem;
+}
+
+.outer-light {
+  padding: 4.16667rem 4vw 3.33333rem;
+  background-color: _palette(off-white);
 }
 
 .inner {
