@@ -3,9 +3,8 @@
  * ----------------------------------------------------------------------------
  */
 #colophon {
-  // background: _palette(secondary);
   background: _palette(light-bg);
-  color: _palette(bg);
+  color: _palette(dark);
 
   a {
     color: inherit;
@@ -16,6 +15,28 @@
       color: _palette(secondary);
     }
   }
+}
+#colophon-dark {
+  background: _palette(bg);
+  color: _palette(off-white);
+
+  a {
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      border-color: currentColor;
+      color: _palette(meta);
+    }
+  }
+   h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: _palette(meta);
+    }
 }
 
 .footer-top {
@@ -47,7 +68,6 @@
 }
 
 .widget-title {
-  // color: _palette(border);
   color: _palette(secondary);
   font-size: 1rem;
   margin: 0 0 1.33333rem;

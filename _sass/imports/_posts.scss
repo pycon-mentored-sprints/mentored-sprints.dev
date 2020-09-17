@@ -99,10 +99,10 @@
   }
 
   .post-card-inside {
-    background: #fff;
-    border: 1px solid _palette(border);
+    background: _palette(off-white);
+    border: none;
     border-radius: 3px;
-    box-shadow: 0 3px 10px 0 rgba(_palette(primary),.1);
+    box-shadow: none;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -150,7 +150,7 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding: 1.33333rem;
+    padding: 1.33333rem 0;
     color: _palette(dark);
   }
 

@@ -2,14 +2,14 @@
 title: Hacktoberfest - mentored sprints
 excerpt: >-
   Join folks from Kedro, Rasa and Terminus DB.
-author: 
 date: '2020-10-15'
 thumb_image: images/9_thumb.jpg
 image: images/9.jpg
 actions:
-      - label: Register
-        url: https://github.com
-        primary: true
+  text: Registration for attendees is now open!
+  url: https://github.com
+  action: Register
+  background: gradient
 layout: event
 ---
 

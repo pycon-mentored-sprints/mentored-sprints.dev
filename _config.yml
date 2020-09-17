@@ -7,7 +7,7 @@ collections:
 palette: blue
 header:
   title: Mentored sprints
-  logo_img: images/logo/logo_alt.png
+  logo_img: images/logo/logo-alt.svg
   has_nav: true
   nav_links:
     - label: Home
@@ -18,19 +18,16 @@ header:
       url: /handbook
     - label: Team
       url: /team
-    # - label: Sign Up
-    #   url: /signup
-    #   primary: true
 footer:
-  logo_img: images/logo/logo.svg
+  logo_img: images/logo/logo-alt.svg
   # tagline:
   has_nav: true
   nav_title: Mentored Sprints
   nav_links:
     - label: About Us
       url: /about
-    - label: Blog
-      url: /blog
+    # - label: Blog
+    #   url: /blog
     - label: Sign Up
       url: signup
     - label: Contact
@@ -44,15 +41,15 @@ footer:
     - label: Discord
       url: "https://www.instagram.com/"
       new_window: true
-    # - label: LinkedIn
-    #   url: 'https://www.linkedin.com/'
-    #   new_window: true
+    - label: GitHub
+      url: "https://www.github.com/PyConMentoredSprints"
+      new_window: true
   has_subscribe: true
-  subscribe_title: Subscribe
+  subscribe_title: Newsletter
   subscribe_content: Stay up to date with upcoming sprints and developments. Join our mailing list here!
-  content: "&copy; Mentored Sprints 2018-2020"
+  content: "&copy; Mentored Sprints 2018-2020 | "
   links:
-    - label: Mentored Sprints
+    - label: GitHub source
       url: "https://www.mentoredsprints.dev"
       new_window: true
 sass:

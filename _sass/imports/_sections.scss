@@ -198,6 +198,13 @@
   box-shadow: 0 3px 10px 0 rgba(_palette(primary),.1);
   padding: 1.11111rem;
 }
+.review-inside-dark {
+  background: _palette(bg);
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  padding: 1.11111rem;
+}
 
 .review-text {
   margin-bottom: 1.5em;
@@ -246,6 +253,12 @@
   margin-bottom: em;
   padding-top: 1.5em;
   position: relative;
+  color: _palette(off-white);
+}
+.project-text-dark {
+  margin-bottom: em;
+  padding-top: 1.5em;
+  position: relative;
   color: _palette(dark);
 }
 
@@ -258,8 +271,8 @@
   display: flex;
 
   .project-name {
-    border-bottom: 3px solid _palette(meta-alt);
-    color: _palette(meta-alt);
+    border-bottom: 3px solid _palette(accent);
+    color: _palette(accent);
     font-size: inherit;
     font-weight: bold;
     margin: 0;}
@@ -571,6 +584,33 @@
       color: _palette(accent);
     }
   }
+
+  &.bg-secondary {
+    color: _palette(off-white);
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: _palette(off-white);
+    }
+    background: _palette(secondary);
+    
+    .underline:after {
+      border-color: currentColor;
+    }
+    .button {
+      
+      &:hover,
+      &:focus,
+      &:active {
+        background: #fff;
+        color: _palette(secondary);
+      }
+    }
+  }
+
   &.bg-white {
     background: #fff;
     color: _palette(dark);
@@ -581,33 +621,9 @@
       box-shadow: 0 3px 10px 0 rgba(_palette(primary),.15);
     }
 
-    button,
-    input[type="submit"],
-    input[type="button"],
-    input[type="reset"],
-    .button {
-      background: transparent;
-      border-color:_palette(primary);
-      color: _palette(primary);
-
-      &:hover,
-      &:focus,
-      &:active {
-        background: _palette(primary);
-        color: #fff;
-      }
-    }
-
     .underline:after {
       border-color: currentColor;
     }
-  }
-
-  &.bg-pop {
-    background: #fff url(https://res.cloudinary.com/nezahualcoyotl/image/upload/v1600183078/Asset_13_p7qugm.svg) no-repeat bottom right;
-    background-size: auto 60%;
-    color: _palette(dark);
-    min-height: 30vw;
   }
 
   &.bg-line {
@@ -617,10 +633,44 @@
     min-height: 15vw;
   }
 
-  &.bg-accent {
+  &.bg-primary {
+    background: _palette(primary);
+    color: _palette(dark);
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: _palette(dark);
+    }
+
+    button,
+    input[type="submit"],
+    input[type="button"],
+    input[type="reset"],
+    .button {
+      background: transparent;
+      border-color: #fff;
+      color: #fff;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: #fff;
+        color: _palette(primary);
+      }
+    }
+
+    .underline:after {
+      border-color: currentColor;
+    }
+  }
+
+  &.bg-gradient {
     background: _palette(secondary);
-    background: -webkit-linear-gradient(left,_palette(secondary), _palette(primary));
-    background: linear-gradient(to right,_palette(secondary), _palette(primary));
+    background: -webkit-linear-gradient(left,_palette(primary), _palette(secondary));
+    background: linear-gradient(to right,_palette(primary), _palette(secondary));
     color: #fff;
 
     a {

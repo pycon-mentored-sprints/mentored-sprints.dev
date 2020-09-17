@@ -1,4 +1,4 @@
-<footer id="colophon" class="site-footer">
+<footer id="colophon-dark" class="site-footer">
   <div class="footer-top outer">
     <div class="inner">
       <div class="footer-widgets">
@@ -31,7 +31,7 @@
               <ul class="secondary-menu">
                 {% for action in site.footer.nav_links %}
                 <li>
-                  
+
                   {% include action-link.html action=action %}
                 </li>
                 {% endfor %}
@@ -45,7 +45,7 @@
               <ul class="social-links">
                 {% for action in site.footer.social_links %}
                 <li>
-                  
+
                   {% include action-link.html action=action %}
                 </li>
                 {% endfor %}
@@ -75,8 +75,8 @@
       {{ site.footer.content }}
       &nbsp;
       {% for action in site.footer.links %}
-        
-        {% include action-link.html action=action %}
+
+      {% include action-link.html action=action %}
       {% endfor %}
     </div><!-- .inner -->
   </div><!-- .site-info -->

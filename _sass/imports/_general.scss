@@ -248,13 +248,14 @@ input[type="submit"],
 input[type="button"],
 input[type="reset"],
 .button {
-  background: _palette(meta-alt);
+  background: transparent;
   border-radius: 3px;
   border: 3px solid _palette(meta-alt);
   box-sizing: border-box;
-  color: #fff;
+  color: _palette(meta-alt);
   display: inline-block;
   font-size: 16px;
+  text-transform: uppercase;
   font-weight: bold;
   line-height: 1.5;
   padding: 0.5em 30px;
@@ -265,9 +266,10 @@ input[type="reset"],
   &:hover,
   &:focus,
   &:active {
+    background-color: _palette(meta-alt);
     color: #fff;
-    opacity: 0.75;
     outline: 0;
+    border: 3px solid _palette(meta-alt);
   }
 }
 
@@ -277,12 +279,13 @@ input[type="reset"],
 
 .button.secondary {
   background: transparent;
-  color: _palette(accent);
+  color: _palette(off-white);
+  border: 3px solid _palette(off-white);
   &:hover,
   &:focus,
   &:active {
-    background-color: _palette(accent);
-    color: #fff;
+    background-color: _palette(off-white);
+    color: _palette(primary);
   }
 }
 
