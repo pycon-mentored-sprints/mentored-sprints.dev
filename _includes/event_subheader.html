@@ -1,6 +1,6 @@
 {% assign post = include.page %}
 {% assign date_type = include.date_type %}
-<footer class="events-meta-alt"> Sprint date:
+<footer class="events-meta"> Sprint date:
     <time class="published" datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">
         {% if date_type == 'short' %}
         {{ post.date | date: '%B %d, %Y' }}

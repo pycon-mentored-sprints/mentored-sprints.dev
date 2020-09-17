@@ -1,5 +1,5 @@
 {% assign section = include.section %}
-<section id="{{ section.section_id }}" class="block cta-block bg-accent outer">
+<section id="{{ section.section_id }}" class="block cta-block bg-secondary outer">
   <div class="inner-large">
     <div class="grid">
       <div class="cell block-content">
@@ -17,7 +17,7 @@
       {% assign actions_is_not_empty = section.actions | is_not_empty %}
       {% if actions_is_not_empty %}
       <p class="cell block-buttons">
-        
+
         {% include cta_buttons.html actions=section.actions %}
       </p>
       {% endif %}

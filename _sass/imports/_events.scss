@@ -16,7 +16,7 @@
 }
 
 .event-content{
-color: #fff;
+color: _palette(dark);
 
  h1,
     h2,
@@ -24,7 +24,7 @@ color: #fff;
     h4,
     h5,
     h6 {
-      color: _palette(accent);
+      color: _palette(secondary);
     }
 }
 
@@ -43,7 +43,7 @@ color: #fff;
     h4,
     h5,
     h6 {
-      color: _palette(accent);
+      color: _palette(secondary);
     }
   
 
@@ -53,11 +53,11 @@ color: #fff;
 
     a {
       border: 0;
-      color: _palette(accent);
+      color: _palette(secondary);
 
       &:hover,
       &:focus {
-        color: _palette(accent);
+        color: _palette(secondary);
       }
     }
   }
@@ -65,7 +65,7 @@ color: #fff;
 
 
 .events-subtitle {
-  border-bottom: 1px solid _palette(border);
+  border-bottom: 1px solid _palette(secondary);
   font-size: 1.33333rem;
   line-height: 1.5;
   margin-bottom: 1.66667rem;
@@ -132,9 +132,9 @@ color: #fff;
 
   .event-card-inside {
     background: #fff;
-    border: 1px solid _palette(bg);
+    border: none;
     border-radius: 3px;
-    box-shadow: 0 3px 10px 0 rgba(_palette(bg),.1);
+    box-shadow: none;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -175,15 +175,15 @@ color: #fff;
   .event-card-content {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: inline;
     -webkit-flex: 1 1 auto;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding: 1.33333rem;
-    color: _palette(accent);
+    padding: 1.33rem 0;
+    color: _palette(primary);
   }
 
   .event-header {

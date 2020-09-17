@@ -25,6 +25,7 @@ sections:
         actions:
           - label: Learn More
             url: /events
+            primary: true
   - section_id: projects
     type: section_projects
     background: dark
@@ -54,7 +55,7 @@ sections:
     actions:
       - label: Getting started
         url: /signup
-        primary: true
+        primary: false
   # - section_id: recent-posts
   #   type: section_posts
   #   background: dark
