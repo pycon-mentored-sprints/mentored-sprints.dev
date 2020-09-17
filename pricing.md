@@ -3,7 +3,7 @@ title: Pricing
 sections:
   - section_id: pricing
     type: section_pricing
-    background: gray
+    background: dark
     title: Pricing Plans
     subtitle: You can have a separate pricing page or list everything on the home page.
     pricing_plans:
@@ -42,7 +42,7 @@ sections:
             url: /signup
   - section_id: faq
     type: section_faq
-    background: gray
+    background: dark
     title: Frequently Asked Questions
     subtitle: 'Phasellus luctus laoreet arcu, vel porta metus imperdiet sit amet.'
     faq_items:

@@ -240,13 +240,16 @@
   }
 }
 
+// Project 
+
 .project-text {
-  margin-bottom: 1.5em;
-  padding-top: 2rem;
+  margin-bottom: em;
+  padding-top: 1.5em;
   position: relative;
+  color: _palette(dark);
 }
 
-.project-footer {
+.project-header {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
@@ -255,8 +258,8 @@
   display: flex;
 
   .project-name {
-    border-bottom: 2px solid _palette(accent);
-    color: _palette(secondary);
+    border-bottom: 3px solid _palette(meta-alt);
+    color: _palette(meta-alt);
     font-size: inherit;
     font-weight: bold;
     margin: 0;}
@@ -268,6 +271,7 @@
     width: 60px;
   }
   }
+
 
 @media only screen and (min-width: 741px) {
   .reviews-block {
@@ -556,20 +560,67 @@
 }
 
 .block {
+  &.bg-dark {
+    color: _palette(border);
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: _palette(accent);
+    }
+  }
   &.bg-white {
     background: #fff;
+    color: _palette(dark);
 
     .post-card-inside,
     .review-inside,
     .plan-inside {
       box-shadow: 0 3px 10px 0 rgba(_palette(primary),.15);
     }
+
+    button,
+    input[type="submit"],
+    input[type="button"],
+    input[type="reset"],
+    .button {
+      background: transparent;
+      border-color:_palette(primary);
+      color: _palette(primary);
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: _palette(primary);
+        color: #fff;
+      }
+    }
+
+    .underline:after {
+      border-color: currentColor;
+    }
+  }
+
+  &.bg-pop {
+    background: #fff url(https://res.cloudinary.com/nezahualcoyotl/image/upload/v1600183078/Asset_13_p7qugm.svg) no-repeat bottom right;
+    background-size: auto 60%;
+    color: _palette(dark);
+    min-height: 30vw;
+  }
+
+  &.bg-line {
+    background: #fff url(https://res.cloudinary.com/nezahualcoyotl/image/upload/v1600185534/Asset_15_ji8pnk.svg) no-repeat bottom left;
+    background-size: 100% auto;
+    color: _palette(dark);
+    min-height: 15vw;
   }
 
   &.bg-accent {
-    background: _palette(accent);
-    background: -webkit-linear-gradient(left,_palette(accent), _palette(accent-alt));
-    background: linear-gradient(to right,_palette(accent), _palette(accent-alt));
+    background: _palette(secondary);
+    background: -webkit-linear-gradient(left,_palette(secondary), _palette(primary));
+    background: linear-gradient(to right,_palette(secondary), _palette(primary));
     color: #fff;
 
     a {
@@ -603,14 +654,15 @@
     input[type="button"],
     input[type="reset"],
     .button {
-      background: #fff;
-      border-color: #fff;
-      color: _palette(primary);
+      background: transparent;
+      border-color:_palette(border);
+      color: _palette(border);
 
       &:hover,
       &:focus,
       &:active {
-        opacity: 0.85;
+        background: _palette(border);
+        color: _palette(secondary);
       }
     }
 
@@ -623,13 +675,18 @@
       color: inherit;
     }
 
+    .block-title-alt {
+      color: inherit;
+    }
+
     .underline:after {
       border-color: currentColor;
     }
   }
 
   &.bg-white + &.bg-white,
-  &.bg-gray + &.bg-gray {
+  &.bg-dark + &.bg-dark {
     padding-top: 0;
   }
 }
+
