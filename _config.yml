@@ -14,10 +14,10 @@ header:
       url: /
     - label: Events
       url: /events
+    - label: Organisers
+      url: /getstarted
     - label: Community Handbook
       url: /handbook
-    - label: Team
-      url: /team
 footer:
   logo_img: images/logo/logo-alt.svg
   # tagline:
@@ -28,8 +28,8 @@ footer:
       url: /about
     # - label: Blog
     #   url: /blog
-    - label: Sign Up
-      url: signup
+    - label: Organise a Sprint
+      url: /getstarted
     - label: Contact
       url: /contact
   has_social: true
@@ -38,11 +38,11 @@ footer:
     - label: Twitter
       url: "https://twitter.com/MentoredSprints"
       new_window: true
-    - label: Discord
-      url: "https://www.instagram.com/"
-      new_window: true
+    # - label: Discord
+    #   url: "https://www.instagram.com/"
+    #   new_window: true
     - label: GitHub
-      url: "https://www.github.com/PyConMentoredSprints"
+      url: "https://github.com/pycon-mentored-sprints"
       new_window: true
   has_subscribe: true
   subscribe_title: Newsletter
@@ -50,7 +50,7 @@ footer:
   content: "&copy; Mentored Sprints 2018-2020 | "
   links:
     - label: GitHub source
-      url: "https://www.mentoredsprints.dev"
+      url: "https://github.com/pycon-mentored-sprints/mentored-sprints.dev"
       new_window: true
 sass:
   indentWidth: 4

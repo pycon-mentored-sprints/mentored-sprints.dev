@@ -1,7 +1,7 @@
 ---
-title: Sign Up
+title: Organising a Mentored Sprint
 subtitle: >-
-  This is an optional subtitle. It can be used to describe what this page is
+  Do you want to run a Mentored Sprint for your community or project? We have put this little guide together for you
   about.
 image: images/wocintech1.jpg
 layout: page
