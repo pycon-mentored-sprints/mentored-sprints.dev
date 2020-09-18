@@ -273,7 +273,7 @@
   .project-name {
     border-bottom: 3px solid _palette(accent);
     color: _palette(accent);
-    font-size: inherit;
+    font-size: 1.2em;
     font-weight: bold;
     margin: 0;}
 
@@ -585,6 +585,36 @@
     }
   }
 
+  &.bg-accent {
+    background-color: _palette(accent);
+    color: _palette(dark);
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: _palette(dark);
+    }
+
+    button,
+    input[type="submit"],
+    input[type="button"],
+    input[type="reset"],
+    .button {
+      background: transparent;
+      border-color: _palette(dark);
+      color: _palette(dark);
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: _palette(dark);
+        color: _palette(accent);
+      }
+    }
+  }
+
   &.bg-secondary {
     color: _palette(off-white);
     h1,
@@ -624,6 +654,23 @@
     .underline:after {
       border-color: currentColor;
     }
+
+    button,
+    input[type="submit"],
+    input[type="button"],
+    input[type="reset"],
+    .button {
+      background: transparent;
+      border-color: _palette(secondary);
+      color: _palette(secondary);
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: _palette(secondary);
+        color: #fff;
+      }
+    }
   }
 
   &.bg-line {
@@ -651,13 +698,13 @@
     input[type="reset"],
     .button {
       background: transparent;
-      border-color: #fff;
-      color: #fff;
+      border-color: _palette(dark);
+      color: _palette(dark);
 
       &:hover,
       &:focus,
       &:active {
-        background: #fff;
+        background: _palette(dark);
         color: _palette(primary);
       }
     }
@@ -671,11 +718,11 @@
     background: _palette(secondary);
     background: -webkit-linear-gradient(left,_palette(primary), _palette(secondary));
     background: linear-gradient(to right,_palette(primary), _palette(secondary));
-    color: #fff;
+    color: _palette(off-white);
 
     a {
       &:not(.button) {
-        color: #fff;
+        color: _palette(off-white);
 
         &:hover,
         &:focus {
@@ -691,12 +738,12 @@
     h4,
     h5,
     h6 {
-      color: #fff;
+      color: _palette(off-white);
     }
 
     blockquote {
-      border-color: #fff;
-      color: #fff;
+      border-color: _palette(off-white);
+      color: _palette(off-white);
     }
 
     button,

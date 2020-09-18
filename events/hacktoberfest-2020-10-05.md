@@ -9,7 +9,7 @@ actions:
   text: Registration for attendees is now open!
   url: https://github.com
   action: Register
-  background: gradient
+  background: accent
 layout: event
 ---
 

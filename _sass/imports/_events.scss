@@ -149,7 +149,7 @@ color: _palette(dark);
 
   .event-card-thumbnail {
     border: 0;
-    border-radius: 3px 3px 0 0;
+    border-radius: 0 0;
     display: block;
     margin: 0;
     position: relative;
@@ -162,7 +162,7 @@ color: _palette(dark);
     }
 
     img {
-      border-radius: 3px 3px 0 0;
+      border-radius: 0 0;
       height: 100%;
       left: 0;
       object-fit: cover;

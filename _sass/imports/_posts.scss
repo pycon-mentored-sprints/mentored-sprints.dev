@@ -16,7 +16,7 @@
     h4,
     h5,
     h6 {
-      color: _palette(accent);
+      color: _palette(meta-alt);
     }
 
   .post-title {
@@ -35,12 +35,12 @@
 }
 
 .post-subtitle {
-  border-bottom: 1px solid _palette(accent);
+  border-bottom: 1px solid _palette(meta-alt);
   font-size: 1.33333rem;
   line-height: 1.5;
   margin-bottom: 1.66667rem;
   padding-bottom: 1.33333rem;
-  color: _palette(accent)
+  color: _palette(meta-alt)
 }
 
 .post-thumbnail {
@@ -117,7 +117,7 @@
 
   .post-card-thumbnail {
     border: 0;
-    border-radius: 3px 3px 0 0;
+    border-radius: 0 0;
     display: block;
     margin: 0;
     position: relative;
@@ -130,7 +130,7 @@
     }
 
     img {
-      border-radius: 3px 3px 0 0;
+      border-radius: 0 0;
       height: 100%;
       left: 0;
       object-fit: cover;

@@ -11,15 +11,15 @@ html {
 
 body {
   background: _palette(bg);
-  color: _palette(primary);
+  color: _palette(off-white);
   line-height: 1.66667;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
 a {
-  border-bottom: 1px solid currentColor;
-  color: _palette(primary);
+  border-bottom: 2px solid currentColor;
+  color: _palette(meta);
   text-decoration: none;
   -webkit-transition: border-color .15s ease-in-out, color .15s ease-in-out;
   transition: border-color .15s ease-in-out, color .15s ease-in-out;
@@ -83,15 +83,16 @@ address {
 
 mark,
 ins {
-  background: #fff493;
-  color: _palette(primary);
+  background: _palette(accent);
+  color: _palette(dark);
   padding: 0 3px;
   text-decoration: none;
 }
 
 pre {
   background: #fff;
-  border-radius: 3px;
+  border-radius: 0px;
+  border: 2px solid _palette(accent);
   font-size: 0.88889rem;
   margin: 0 0 1.66667rem;
   overflow: auto;
@@ -186,11 +187,12 @@ td {
 th {
   color: _palette(secondary);
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 /* Form fields */
 label {
-  color: _palette(secondary);
+  color: _palette(meta-alt);
   font-weight: bold;
 }
 
@@ -209,12 +211,12 @@ input[type="search"],
 input[type="url"],
 select,
 textarea {
-  background: #fff;
-  border: 1px solid _palette(border);
-  border-radius: 3px;
+  background: _palette(off-white);
+  border: 0px solid _palette(meta-alt);
+  border-radius: 0;
   box-shadow: none;
   box-sizing: border-box;
-  color: _palette(primary);
+  color: _palette(dark);
   display: inline-block;
   font-size: 16px;
   font-weight: normal;
@@ -226,6 +228,7 @@ textarea {
 
   &:focus {
     outline: 0;
+    border: 2px solid _palette(meta-alt);
   }
 }
 
@@ -249,7 +252,7 @@ input[type="button"],
 input[type="reset"],
 .button {
   background: transparent;
-  border-radius: 3px;
+  border-radius: 0px;
   border: 3px solid _palette(meta-alt);
   box-sizing: border-box;
   color: _palette(meta-alt);
@@ -267,7 +270,7 @@ input[type="reset"],
   &:focus,
   &:active {
     background-color: _palette(meta-alt);
-    color: #fff;
+    color: _palette(dark);
     outline: 0;
     border: 3px solid _palette(meta-alt);
   }
@@ -350,7 +353,7 @@ img {
 
 .post-thumbnail img,
 .post-content img {
-  border-radius: 3px;
+  border-radius: 0px;
 }
 
 /* Heading underline */
