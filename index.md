@@ -53,8 +53,8 @@ sections:
     title: Interested in organising your own mentored sprint?
     subtitle: Do you run a community, conference or open source project and would like to organise a mentored sprint? Check this useful guide!
     actions:
-      - label: Getting started
-        url: /signup
+      - label: Organise your sprint
+        url: /getstarted
         primary: false
   # - section_id: recent-posts
   #   type: section_posts
