@@ -6,6 +6,25 @@ image: images/wocintech1.jpg
 layout: page
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus quis lorem malesuada luctus. Cras lacinia, eros at dapibus molestie, risus tortor pretium ligula, eu malesuada tortor eros dapibus mi. Proin laoreet efficitur suscipit. Donec molestie volutpat euismod. Nulla gravida ligula in eros facilisis, sed dignissim tellus aliquam. Etiam convallis enim nisi, at suscipit tortor pulvinar at. Nulla a interdum lacus. Sed a porttitor mi. Sed at risus eu orci ultricies mattis sed in tellus. Cras nec neque sed dui vehicula iaculis id vel ex. Phasellus non consectetur augue. Pellentesque condimentum sapien arcu, nec tempus nunc maximus eu. Duis blandit risus nulla. In dolor dui, placerat non finibus sit amet, venenatis pretium tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Coding sprints (in open source contexts) have been around for quite a while, either as standalone events or more frequently, as events attached to conferences or developer summits.
+Most of the folks that contribute to open source projects do it in a distributed or remote way. So, coding sprints at large events such as conference are an excellent opportunity to get contributors together to bounce ideas and work together, in person.
 
-Nunc a lorem tellus. Aenean eu auctor purus. Cras pulvinar, nunc at sagittis dignissim, orci elit auctor leo, et consectetur est turpis a nunc. Vivamus in faucibus felis. Aenean rutrum magna at ex auctor, congue efficitur ligula feugiat. Proin a egestas arcu. Etiam feugiat turpis quis mollis pellentesque. Sed posuere luctus tortor, a eleifend augue varius sit amet. Integer ultrices neque sed quam dictum, quis vestibulum justo volutpat. Nam vitae tempus leo, ut mattis mi.
+## Reframing contribution sprints
+*Naming matters* - contributing to open source goes far beyond code contributions. The opportunities to contribute to open source are almost limitless, from writing documentation to organising events, designing visual assets and improving governance and diversity, inclusion and accessibility policies. Hence at Mentored Sprints, we prefer the term **Contribution Sprints** over coding sprints. We believe this term is more inclusive and does a better job at reflecting the objective of such events.
+
+### Mentored sprints - what?
+Contributing to open source can have a significant impact in both the broader community as well as on the individuals contributing to open source projects.
+Though not everyone in the community has the same opportunities or availability to do so. On the one hand, Contribution Sprints attached to large conferences run after the main conference events, which means an extra pair of days away from work or care responsibilities. Also, folks who have never contributed to open source might find it daunting and often quite hard to get started. Sometimes we, as newcomers to a project struggle to ask questions for fear of being labelled as "silly" (or else) or simply struggle to find issues or tasks to get started with. We, the core team of Mentored Sprints have a clear yet challenging goal:  **make contribution sprints more accessible and friendlier**, especially to beginners and folks from underrepresented groups in the open-source ecosystem.
+
+So Mentored Sprints events revolve around these principles:
+
+1. **Work closely with OSS projects and their maintainers**- maintainers serve as mentors to participants on the day (after all they know the project and its issues better than anyone else).
+1. **Support mentors**- provide guidance on how to prepare for this kind of sprints and identify actions that can make contributions to their project more accessible and inclusive.
+1. **Keep it personal**- we aim to have a ratio of 10:1 contributors to mentors to ensure nobody is left behind nor overwhelmed.
+Encourage contributions beyond code - we want to shift the focus about what a meaningful contribution is. Therefore we make sure there is a diverse set of tasks folks can contribute to.
+1. **Everyone is welcome**- from beginners to mentors everyone's voice and contributions matter.
+1. **Mentored Sprints are safe and welcoming spaces**- we have a Code of Conduct that is enforced at each of the events. And we also provide mechanisms to raise any Code of Conduct violations safely and anonymously. All reports are handled and taken very seriously. Our team is continually being trained, and our CoC and processes are reviewed regularly.
+1. **Celebrate all wins**- we make sure to celebrate everyone's accomplishments, all being equal.
+
+If you are interested in attending any of our Mentored Sprints make sure to check the [Events]({% link events.md %}) section in our website.
+  If you want to organise a Mentored Sprint for your project or community make sure to check the [Community handbook](https://www.mentored-sprints.dev) or [get in touch]({% link contact.md %}).
