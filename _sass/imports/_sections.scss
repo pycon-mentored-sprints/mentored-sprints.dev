@@ -438,9 +438,9 @@
 }
 
 .accordion-header {
-  background: #fff;
-  border-radius: 3px;
-  box-shadow: 0 3px 10px 0 rgba(_palette(primary),.1);
+  background: _palette(off-white);
+  border-radius: 0px;
+  box-shadow: none;
   margin-top: 1.25rem;
 
   .accordion-trigger {
@@ -448,7 +448,7 @@
     -webkit-align-items: center;
     align-items: center;
     background: 0;
-    border: 1px solid _palette(border);
+    border: 2px solid _palette(secondary);
     border-radius: 0;
     box-shadow: none;
     color: _palette(secondary);
@@ -496,10 +496,10 @@
 }
 
 .accordion-content {
-  background: #fff;
-  border: 1px solid _palette(border);
-  border-radius: 3px;
-  color: _palette(primary);
+  background: _palette(off-white);
+  border: 2px solid _palette(meta-alt);
+  border-radius: 0px;
+  color: _palette(dark);
   font-size: 0.88889rem;
   padding: 1rem 15px;
 }
