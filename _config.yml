@@ -46,7 +46,7 @@ footer:
     - label: GitHub
       url: "https://github.com/pycon-mentored-sprints"
       new_window: true
-  has_subscribe: true
+  has_subscribe: false
   subscribe_title: Newsletter
   subscribe_content: Stay up to date with upcoming sprints and developments. Join our mailing list here!
   content: "&copy; Mentored Sprints 2018-2020 | "
