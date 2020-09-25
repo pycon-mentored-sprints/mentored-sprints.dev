@@ -32,6 +32,8 @@ footer:
       url: /getstarted
     - label: Contact
       url: /contact
+    - label: Brand
+      url: /brand
   has_social: true
   social_title: Community
   social_links:
