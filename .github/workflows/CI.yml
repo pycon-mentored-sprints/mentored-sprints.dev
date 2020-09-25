@@ -30,10 +30,12 @@ jobs:
         with:
           ruby-version: "2.6"
         name: setup Ruby
-      - run: |
+      - name: Install deps
+        run: |
           gem install bundler jekyll
           bundle install
+      - name: Checks
+        run: |
           bundle exec jekyll build
-          bundle exec jekyll serve 
-          npm run test-pa11y
+          bundle exec jekyll serve -B & sleep 5 & npm run test-pa11y
           pkill -f jekyll
