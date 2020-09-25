@@ -1,6 +1,6 @@
 {
     "name": "mentored-sprints",
-    "version": "0.1",
+    "version": "0.1.0",
     "devDependencies": {
         "pa11y-ci": "~1.0"
     },
