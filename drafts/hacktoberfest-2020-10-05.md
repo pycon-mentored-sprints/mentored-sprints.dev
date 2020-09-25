@@ -5,11 +5,11 @@ excerpt: >-
 date: '2020-10-15'
 thumb_image: images/wocintech1.jpg
 image: images/wocintech1.jpg
-actions:
-  text: Registration for attendees is now open!
-  url: https://github.com
-  action: Register
-  background: accent
+# actions:
+#   text: Registration for attendees is now open!
+#   url: https://github.com
+#   action: Register
+#   background: accent
 layout: event
 ---
 
