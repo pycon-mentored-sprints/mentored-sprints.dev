@@ -1,0 +1,26 @@
+name: Check site
+
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - feature/*
+
+jobs:
+  diff-site:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+        name: Checkout repo
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - uses: David-Byrne/jekyll-diff-action@v1.3.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
