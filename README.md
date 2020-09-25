@@ -16,9 +16,12 @@
   - [Running this Site Locally](#running-this-site-locally)
   - [📝 Adding content to the site](#-adding-content-to-the-site)
     - [📅 Events:](#-events)
-  - [Style-guide](#style-guide)
-- [Contributing](#contributing)
-- [License](#license)
+    - [:pencil: Website section](#-website-section)
+  - [:book: Style-guide](#-style-guide)
+    - [:art: Colours](#-colours)
+    - [:bookmark: Section colours](#-section-colours)
+- [:raised_hands: Contributing](#-contributing)
+- [:book: License](#-license)
 
 This reposiroty contains the source code for [mentored-sprints.dev](mentored-sprints.dev) which is the main website for the project, events and the such.
 
@@ -80,11 +83,13 @@ layout: event
    We have added an `actions` label which can be used to add calls for action such as registration and the such. Uncomment the section and fill in the details:
 
 - **Text**: call for action Text
-- **url**: which URL should folks be redirected to (e.g. Eventbrite, pretix)
+- **url**: which URL should folks be redirected to (e.g. Eventbrite, Pretix)
 - **action**: the text for the action button
-- **background**: any of the background styles (see [Style guide](#style-guide))
+- **background**: any of the background styles (see [Style guide](#style-guide) and [Section colours](#-section-colours) for an example image)
 
 This will automatically add your event to the Events page and sort by date.
+
+Once completed:
 
 1. Save and commit your changes
 1. Push your changes and create a pull request
@@ -112,16 +117,35 @@ To add a new section to the main page.
        - label: Learn More
          url: /events
          primary: true
-         ```
 ```
 
 - **section_id**: make sure this is unique to the section
 - **background**: see [style guide](#style-guide)
 - **actions**: similar to events, this will add a call to action, make sure the url exists e.g. if redirecting to a new page in the site there has to be a corresponding `.md` file.
 
-### Style-guide
+Once completed:
 
-The sections in the website can take any of the following colours: `dark`, `accent`, `primary`, `secondary`, `white` or `gradient`.
+1. Save and commit your changes
+1. Push your changes and create a pull request
+
+### :book: Style-guide
+
+#### :art: Colours
+
+The colours used in the site derive from the Mentored Sprints brand colours but have been optimised for web and accesibility:
+
+| Name - theme reference   | COLOUR HEX CODE                                                      |
+| ------------------------ | -------------------------------------------------------------------- |
+| Kobi - primary           | ![#EDA0C4](https://placehold.it/15/EDA0C4/000000?text=%20) `#EDA0C4` |
+| Slate blue -secondart    | ![#5B63CE](https://placehold.it/15/5B63CE/000000?text=%20) `#5B63CE` |
+| Midle Blue Green -accent | ![#8DDDD2](https://placehold.it/15/8DDDD2/000000?text=%20) `#8DDDD2` |
+| Raisin black - dark      | ![#1B212F](https://placehold.it/15/1B212F/000000?text=%20) `#1B212F` |
+| Ghost white - white      | ![#F8F9FF](https://placehold.it/15/F8F9FF/000000?text=%20) `#F8F9FF` |
+
+
+#### :bookmark: Section colours
+
+The sections in the website can take any of the website colours: `dark`, `accent`, `primary`, `secondary`, `white` or `gradient`.
 
 For events, these are specified int he yaml header:
 
@@ -132,19 +156,18 @@ actions:
   action: Register
   background: accent
 ```
+
 and are rendered as:
 
 ![call to action block](./images/cta.png)
 
-
-
-## Contributing
+## :raised_hands: Contributing
 
 🚧 This repository is always a work in progress and everyone is encouraged to help us build something that is useful to the many. 🚧
 
 Everyone is asked to follow our [Code of Conduct](https://www.mentored-sprints.dev/code-conduct/) and to checkout our [Contributing Guidelines](./CONTRIBUTING.md) for more information on how to get started.
 
-## License
+## :book: License
 
 The code for this site is Licensed as [BSD-3](https://opensource.org/licenses/BSD-3-Clause) and the content is licensed as
 [CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) ⓒ[Mentored Sprints](mentored-sprints.dev)
