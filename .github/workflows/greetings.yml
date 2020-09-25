@@ -1,4 +1,4 @@
-name: Greetings
+name: Greet new contributor
 
 on: [pull_request, issues]
 
@@ -6,8 +6,8 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/first-interaction@v1
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Welcome to the Mentored Sprints website repository!' 
-        pr-message: 'Message that will be displayed on users'' first pr'
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Welcome to the Mentored Sprints website repository! We are so glad that you have decided to contribute. As a reminder we have a [Code of Conduct]() and [Contributing guidelines](https://github.com/pycon-mentored-sprints/mentored-sprints.dev/blob/master/CONTRIBUTING.md)."
+          pr-message: "Welcome to the Mentored Sprints website repository! We are so glad that you have decided to contribute. As a reminder we have a [Code of Conduct]() and [Contributing guidelines](https://github.com/pycon-mentored-sprints/mentored-sprints.dev/blob/master/CONTRIBUTING.md)."
