@@ -14,13 +14,20 @@
     <link rel="stylesheet" href="https://use.typekit.net/vby6sxz.css">
     <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
 
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="{{'images/favicon_io/favicon-16x16.png' | relative_url}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{'images/favicon_io/favicon-32x32.png' | relative_url}}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{'images/favicon_io/apple-touch-icon.png' | relative_url}}">
+    <link rel="manifest" href="{{'images/favicon_io/site.webmanifest' | relative_url}}">
+
 </head>
 
 <body>
 
     {{ content }}
     <!-- Scripts -->
-    <script src="{{ 'js/plugins.js' | relative_url }}"></script>
+    <script src=" {{ 'js/plugins.js' | relative_url }}">
+    </script>
     <script src="{{ 'js/init.js' | relative_url }}"></script>
     <script src="{{ 'js/main.js' | relative_url }}"></script>
 </body>

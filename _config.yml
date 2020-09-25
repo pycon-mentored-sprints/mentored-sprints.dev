@@ -73,3 +73,4 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
+include: [_redirects]
