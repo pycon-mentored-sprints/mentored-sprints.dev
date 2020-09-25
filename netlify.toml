@@ -4,6 +4,6 @@
 
 [[redirects]]
     from = "/handbook"
-    to = "https://www.mentored-sprints.netlify.app"
+    to = "https://mentored-sprints.netlify.app/"
     status = 301
     force = true
