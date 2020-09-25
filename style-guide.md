@@ -39,17 +39,11 @@ Nunc a lorem tellus. Aenean eu auctor purus. Cras pulvinar, nunc at sagittis dig
 
 + Donec non tortor in arcu mollis feugiat
 + Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-+ Donec id eros eget quam aliquam gravida
-+ Vivamus convallis urna id felis
-+ Nulla porta tempus sapien
 
 ## Ordered Lists
 
 1. Donec non tortor in arcu mollis feugiat
 2. Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-3. Donec id eros eget quam aliquam gravida
-4. Vivamus convallis urna id felis
-5. Nulla porta tempus sapien
 
 ## Code Blocks
 
@@ -85,3 +79,30 @@ body {
     </tr>
   </tfoot>
 </table>
+
+## Call to action
+
+Defined from an event as:
+
+```yaml 
+actions:
+  text: Registration for attendees is now open!
+  url: https://github.com
+  action: Register
+  background: accent
+```
+
+Where background can be any of: `dark`, `accent`, `primary`, `secondary`, `white` or `gradient`.
+
+<section id="call-to-action" class="block cta-block bg-accent outer">
+  <div class="inner-large">
+    <div class="grid">
+      <div class="cell block-content">
+        <h4 class="block-title">This is a call to action</h4>
+      </div><!-- .block-content -->
+      <p class="cell block-buttons">
+        <a href="{{page.actions.url}}" class="button secondary" target="_blank">Click here</a>
+      </p>
+    </div><!-- .grid -->
+  </div><!-- .inner -->
+</section><!-- .cta -->

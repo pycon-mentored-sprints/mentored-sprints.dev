@@ -1,20 +1,28 @@
-# mentored-sprints.dev
+
 <div align="center">
- <img alt="Logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/blue-pink-text.svg?raw=true" width="250" />
+ <img alt="Logo" src="https://raw.githubusercontent.com/pycon-mentored-sprints/digital-assets/7d2151142c84196d498a850b219a18066c19afb7/logos/white-pink-text-blue_1.svg?raw=true" width="250" />
 </div>
 <br>
 
+<div align="center">
+<h1>mentored-sprints.dev</h1>
+</div>
+
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
-- [mentored-sprints.dev](#mentored-sprintsdev)
-  - [💻 Development](#-development)
-    - [Running this Site Locally](#running-this-site-locally)
-    - [📝 Adding content to the site](#-adding-content-to-the-site)
-      - [📅 Events:](#-events)
-  - [Contributing](#contributing)
-  - [License](#license)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/22aa2846-c490-494e-b625-50a322ecc94f/deploy-status)](https://app.netlify.com/sites/amazing-cray-35954b/deploys)
 
-This reposiroty contains the source code for [mentored-sprints.dev](mentored-sprints.dev which is the main website for the project, events and the such. If you are looking for the source for the [Community Handbook](https://github.com/pycon-mentored-sprints/community-handbook) head to [https://github.com/pycon-mentored-sprints/community-handbook](https://github.com/pycon-mentored-sprints/community-handbook).
+- [💻 Development](#-development)
+  - [Running this Site Locally](#running-this-site-locally)
+  - [📝 Adding content to the site](#-adding-content-to-the-site)
+    - [📅 Events:](#-events)
+  - [Style-guide](#style-guide)
+- [Contributing](#contributing)
+- [License](#license)
+
+This reposiroty contains the source code for [mentored-sprints.dev](mentored-sprints.dev) which is the main website for the project, events and the such.
+
+If you are looking for the source for the [Community Handbook](https://github.com/pycon-mentored-sprints/community-handbook) head to [https://github.com/pycon-mentored-sprints/community-handbook](https://github.com/pycon-mentored-sprints/community-handbook).
 
 ## 💻 Development
 
@@ -67,21 +75,67 @@ layout: event
 ---
 ```
 
-   :warning: Place any images in the [./images/events](./images/events) directory to keep things tidy. 
+   :warning: Place any images in the [./images/events](./images/events) directory to keep things tidy.
 
    We have added an `actions` label which can be used to add calls for action such as registration and the such. Uncomment the section and fill in the details:
 
-   - **Text**: call for action Text
-   - **url**: which URL should folks be redirected to (e.g. Eventbrite, pretix)
-   - **action**: the text for the action button
-   - **background**: any of the background styles (see [Style guide](#style-guide))
+- **Text**: call for action Text
+- **url**: which URL should folks be redirected to (e.g. Eventbrite, pretix)
+- **action**: the text for the action button
+- **background**: any of the background styles (see [Style guide](#style-guide))
 
 This will automatically add your event to the Events page and sort by date.
 
 1. Save and commit your changes
 1. Push your changes and create a pull request
 
+#### :pencil: Website section
+
+To add a new section to the main page.
+
+1. Clone the project and make a new branch `content/<whatever>`
+2. Open `index.md`
+3. Add your section where needed:
+```yml
+- section_id: upcoming_events
+ type: section_features
+ background: white
+ title: Upcoming Events
+ subtitle: >-
+   Find when the next mentored sprints event is
+ features:
+   - title: Hacktoberfest 2020
+     image: images/wocintech1.jpg
+     content: >-
+       Let's celebrate Hacktoberfest together! Join folks from Kedro, Terminus DB and Rasa.
+     actions:
+       - label: Learn More
+         url: /events
+         primary: true
+         ```
+```
+
+- **section_id**: make sure this is unique to the section
+- **background**: see [style guide](#style-guide)
+- **actions**: similar to events, this will add a call to action, make sure the url exists e.g. if redirecting to a new page in the site there has to be a corresponding `.md` file.
+
 ### Style-guide
+
+The sections in the website can take any of the following colours: `dark`, `accent`, `primary`, `secondary`, `white` or `gradient`.
+
+For events, these are specified int he yaml header:
+
+```yaml
+actions:
+  text: Registration for attendees is now open!
+  url: https://github.com
+  action: Register
+  background: accent
+```
+and are rendered as:
+
+![call to action block](./images/cta.png)
+
 
 
 ## Contributing
