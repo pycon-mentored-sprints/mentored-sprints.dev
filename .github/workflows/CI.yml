@@ -1,41 +1,17 @@
 name: Check site
 
 on:
-  pull_request:
-    branches:
-      - master
   push:
     branches:
+      - master
       - feature/*
 
 jobs:
-  diff-site:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v1
-        name: Checkout repo
-      - uses: actions/cache@v2
+      - name: Check URLs
+        uses: paramt/url-checker@master
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-      - uses: actions/setup-node@v1
-        name: Setup node
-        with:
-          node-version: "12"
-      - run: npm install pa11y-ci
-      - uses: actions/setup-ruby@v1
-        with:
-          ruby-version: "2.6"
-        name: setup Ruby
-      - name: Install deps
-        run: |
-          gem install bundler jekyll
-          bundle install
-      - name: Checks
-        run: |
-          bundle exec jekyll build
-          bundle exec jekyll serve -B & sleep 5 & npm run test-pa11y
-          pkill -f jekyll
+          files: "README.md, index.md, about.md, brand.md, faq.md"
+          
