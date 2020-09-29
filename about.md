@@ -10,11 +10,13 @@ Coding sprints (in open source contexts) have been around for quite a while, eit
 Most of the folks that contribute to open source projects do it in a distributed or remote way. So, coding sprints at large events such as conference are an excellent opportunity to get contributors together to bounce ideas and work together, in person.
 
 ## Reframing contribution sprints
+
 *Naming matters* - contributing to open source goes far beyond code contributions. The opportunities to contribute to open source are almost limitless, from writing documentation to organising events, designing visual assets and improving governance and diversity, inclusion and accessibility policies. Hence at Mentored Sprints, we prefer the term **Contribution Sprints** over coding sprints. We believe this term is more inclusive and does a better job at reflecting the objective of such events.
 
 ### Mentored sprints - what?
+
 Contributing to open source can have a significant impact in both the broader community as well as on the individuals contributing to open source projects.
-Though not everyone in the community has the same opportunities or availability to do so. On the one hand, Contribution Sprints attached to large conferences run after the main conference events, which means an extra pair of days away from work or care responsibilities. Also, folks who have never contributed to open source might find it daunting and often quite hard to get started. Sometimes we, as newcomers to a project struggle to ask questions for fear of being labelled as "silly" (or else) or simply struggle to find issues or tasks to get started with. We, the core team of Mentored Sprints have a clear yet challenging goal:  **make contribution sprints more accessible and friendlier**, especially to beginners and folks from underrepresented groups in the open-source ecosystem.
+Though not everyone in the community has the same opportunities or availability to do so. On the one hand, Contribution Sprints attached to large conferences run after the main conference events, which means an extra pair of days away from work or care responsibilities. Also, folks who have never contributed to open source might find it daunting and often quite hard to get started. Sometimes we, as newcomers to a project struggle to ask questions for fear of being labeled as "silly" (or else) or simply struggle to find issues or tasks to get started with. We, the core team of Mentored Sprints have a clear yet challenging goal:  **make contribution sprints more accessible and friendlier**, especially to beginners and folks from underrepresented groups in the open-source ecosystem.
 
 So Mentored Sprints events revolve around these principles:
 
@@ -27,4 +29,5 @@ Encourage contributions beyond code - we want to shift the focus about what a me
 1. **Celebrate all wins**- we make sure to celebrate everyone's accomplishments, all being equal.
 
 If you are interested in attending any of our Mentored Sprints make sure to check the [Events]({% link events.md %}) section in our website.
-  If you want to organise a Mentored Sprint for your project or community make sure to check the [Community handbook](https://www.mentored-sprints.dev) or [get in touch]({% link contact.md %}).
+  If you want to organise a Mentored Sprint for your project or community make sure to check the [Community handbook](https://mentored-sprints.netlify.app/) or [get in touch]({% link contact.md %}).
+  

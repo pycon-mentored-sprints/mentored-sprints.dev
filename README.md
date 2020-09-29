@@ -5,7 +5,7 @@
 <br>
 
 <div align="center">
-<h1>mentored-sprints.dev</h1>
+<h1>mentored-sprints.dev</h1>k
 </div>
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://opensource.org/licenses/BSD-3-Clause)
@@ -23,7 +23,7 @@
 - [:raised_hands: Contributing](#-contributing)
 - [:book: License](#-license)
 
-This reposiroty contains the source code for [mentored-sprints.dev](mentored-sprints.dev) which is the main website for the project, events and the such.
+This repository contains the source code for [mentored-sprints.dev](mentored-sprints.dev) which is the main website for the project, events and the such.
 
 If you are looking for the source for the [Community Handbook](https://github.com/pycon-mentored-sprints/community-handbook) head to [https://github.com/pycon-mentored-sprints/community-handbook](https://github.com/pycon-mentored-sprints/community-handbook).
 
@@ -31,7 +31,7 @@ If you are looking for the source for the [Community Handbook](https://github.co
 
 ### Running this Site Locally
 
-This website is build using Jekyll and served through Netlify. If you want to make changes to the site follow these steps to work on this on your local computer.
+This website is build using Jekyll and served through Netlify. If you want to make changes to the site, follow these steps to work on this on your local computer.
 
 1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
 
@@ -50,13 +50,14 @@ This website is build using Jekyll and served through Netlify. If you want to ma
 
 ### 📝 Adding content to the site
 
-#### 📅 Events:
+#### 📅 Events
 
 1. Clone the project and make a new branch `event/event-name`
 
 1. Make a copy of the [event template](./templates/event-template.md) and place it in the [events directory](./events). Make sure to name it following this pattern `<event-name>-<event-date-YY-mm-dd>`.
 
 3. Fill in the event metadata:
+  
 ```yml
 ---
 title: Your event name
@@ -83,7 +84,7 @@ layout: event
    We have added an `actions` label which can be used to add calls for action such as registration and the such. Uncomment the section and fill in the details:
 
 - **Text**: call for action Text
-- **url**: which URL should folks be redirected to (e.g. Eventbrite, Pretix)
+- **URL**: which URL should folks be redirected to (e.g. Eventbrite, Pretix)
 - **action**: the text for the action button
 - **background**: any of the background styles (see [Style guide](#style-guide) and [Section colours](#-section-colours) for an example image)
 
@@ -101,6 +102,7 @@ To add a new section to the main page.
 1. Clone the project and make a new branch `content/<whatever>`
 2. Open `index.md`
 3. Add your section where needed:
+   
 ```yml
 - section_id: upcoming_events
  type: section_features
@@ -126,7 +128,7 @@ To add a new section to the main page.
 Once completed:
 
 1. Save and commit your changes
-1. Push your changes and create a pull request
+2. Push your changes and create a pull request
 
 ### :book: Style-guide
 
@@ -142,14 +144,14 @@ The colours used in the site derive from the Mentored Sprints brand colours but 
 | Raisin black - dark      | ![#1B212F](https://placehold.it/15/1B212F/000000?text=%20) `#1B212F` |
 | Ghost white - white      | ![#F8F9FF](https://placehold.it/15/F8F9FF/000000?text=%20) `#F8F9FF` |
 
-
 #### :bookmark: Section colours
 
 The sections in the website can take any of the website colours: `dark`, `accent`, `primary`, `secondary`, `white` or `gradient`.
 
-For events, these are specified int he yaml header:
+For events, these are specified int he YAML header:
 
 ```yaml
+
 actions:
   text: Registration for attendees is now open!
   url: https://github.com
@@ -163,11 +165,11 @@ and are rendered as:
 
 ## :raised_hands: Contributing
 
-🚧 This repository is always a work in progress and everyone is encouraged to help us build something that is useful to the many. 🚧
+🚧 This repository is always a work in progress, and everyone is encouraged to help us build something useful to the many. 🚧
 
-Everyone is asked to follow our [Code of Conduct](https://www.mentored-sprints.dev/code-conduct/) and to checkout our [Contributing Guidelines](./CONTRIBUTING.md) for more information on how to get started.
+Everyone is asked to follow our [Code of Conduct](https://mentored-sprints.netlify.app/code-conduct/) and to check out our [Contributing Guidelines](./CONTRIBUTING.md) for more information on how to get started.
 
 ## :book: License
 
 The code for this site is Licensed as [BSD-3](https://opensource.org/licenses/BSD-3-Clause) and the content is licensed as
-[CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) ⓒ[Mentored Sprints](mentored-sprints.dev)
+[CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) ⓒ[Mentored Sprints](mentored-sprints.dev).

@@ -17,7 +17,7 @@ header:
     - label: Organisers
       url: /getstarted
     - label: Community Handbook
-      url: /handbook
+      url: 'https://mentored-sprints.netlify.app/'
 footer:
   logo_img: images/logo/logo-alt.svg
   # tagline:

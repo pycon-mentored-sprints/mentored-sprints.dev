@@ -9,10 +9,10 @@ sections:
     faq_items:
       - question: What happens during a Mentored Sprint?
         answer: >-
-          The format might vary from event to event. But as a guide we try to inlcude the following parts:
+          The format might vary from event to event. But as a guide we try to include the following parts:
           <br><br>
           1. Welcome and housekeeping rules (CoC, reporting CoC violations, schedule, etc.) <br>
-          2. Introduction to contributing to open source - mini wokrshop on how to do your first contribution to an open source project (optional in event or watch party) <br>
+          2. Introduction to contributing to open source - mini-workshop on how to do your first contribution to an open-source project (optional live event or watch party) <br>
           3. Mentors & project presentation - introduce mentors and the project(s) they can provide mentorship for <br>
           4. Assemble teams - folks join the project they want to contribute to <br>
           5. Sprint!!<br>
@@ -22,7 +22,7 @@ sections:
           You definitely can. Mentored Sprints are designed to provide support and opportunities to beginners and experienced folks alike. We cover beginners friendly workshops and provide a set of resources to get you started.
       - question: I am not a developer/software engineer/coder can I participate?
         answer: >- 
-          Absolutely! We want to dismantle the idea that only code contributions matter. We make sure folks with diverse background have success opportunities at each sprint. If you are a writer, designer, project manager, lawyer or whatever your current career is you are welcome and we will make sure this is a meaningful experience for you.
+          Absolutely! We want to dismantle the idea that only code contributions matter. We make sure folks with diverse backgrounds have success opportunities at each sprint. If you are a writer, designer, project manager, lawyer or whatever your current career is you are welcome and we will make sure this is a meaningful experience for you.
       - question: Can I partner with you to run a Mentored Sprint for my community/event/project?
         answer: >- 
           We are always happy to partner with folks interested in running Mentored Sprints. However, we are a small bunch of very busy folks so it is not always possible. Please reach out using our contact form here and we can discuss this further. 
