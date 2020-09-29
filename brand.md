@@ -37,7 +37,7 @@ We come from all walks of life and believe that the diversity of our community i
 
 [Check the palette here](https://coolors.co/283069-e7579a-fbddec-ffffff)
 
-- **Website colours:** created from the main colour palette but optimised for accessibility and web display 
+- **Website colours:** created from the main colour palette but optimised for accessibility and web display.
 
 <div class="columns is-multiline">
   <div class="column is-one-quarter">

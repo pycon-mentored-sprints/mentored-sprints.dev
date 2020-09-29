@@ -1,0 +1,48 @@
+name: Accessibility checks
+
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - feature/*
+
+jobs:
+  check-accessibility:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+        name: Checkout repo
+      - uses: actions/setup-node@v1
+        name: Setup node
+        with:
+          node-version: "12.x"
+      - run: npm install pa11y-ci
+      - name: Cache dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-s
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: "2.6"
+        name: setup Ruby
+      - name: Install deps
+        run: |
+          gem install bundler jekyll
+          bundle install
+      - uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Checks
+        run: |
+          bundle exec jekyll build
+          bundle exec jekyll serve -B & sleep 5 & npm run test-pa11y
+          pkill -f jekyll

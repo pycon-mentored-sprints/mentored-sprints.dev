@@ -1,0 +1,17 @@
+name: Check site
+
+on:
+  push:
+    branches:
+      - master
+      - feature/*
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check URLs
+        uses: paramt/url-checker@master
+        with:
+          files: "README.md, index.md, about.md, brand.md, faq.md"
+          

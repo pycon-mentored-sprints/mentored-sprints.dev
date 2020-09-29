@@ -27,20 +27,20 @@
 
 We are so excited that you want to contribute to the Mentored Sprints Community website repository :sparkles:. And we are **committed to ensuring that every user and contributor feels welcome and included in this community**.
 
-All kind of contributions are welcome and are accepted through GitHub issues and pull requests (PR). Please read these guidelines to make sure we can integrate your contributions easily into the project.
+All kinds of contributions are welcome and are accepted through GitHub issues and pull requests (PR). Please read these guidelines to make sure we can integrate your contributions easily into the project.
 
 ## 🙌🏼 Join the community
 
-Mentored Sprints is a community-led and collborativelly developed project. We, therefore, require that all our members and their contributions adhere to our [Code of Conduct](www.mentored-sprints.dev/code-conduct) (CoC). Please familiarize yourself with our CoC that lists the expected behaviours. We have also provided details for CoC reporting and enforcement, which can be read in our [Community Handbook](www.mentored-sprints.dev/handbook).
+Mentored Sprints is a community-led and collaboratively developed project. We, therefore, require that all our members and their contributions adhere to our [Code of Conduct](https://mentored-sprints.netlify.app/code-conduct) (CoC). Please familiarize yourself with our CoC that lists the expected behaviours. We have also provided details for CoC reporting and enforcement, which can be read in our [Community Handbook](https://mentored-sprints.netlify.app/).
 ## Inclusivity
 
 The Mentored Sprints project aims to be inclusive to people from all walks of life and to all backgrounds and communities. These intentions must be reflected in the contributions that we make to the project.
 
 In addition to the CoC, we encourage intentional, inclusive actions from contributors to The Mentored Sprints project  Here are a few examples of such actions:
 
-- use respectful, gender-neutral and inclusive language (learn more about [inclusive writing](https://www2.le.ac.uk/offices/ld/all-resources/writing/writing-resources/inclusive), resource by University of Leicester).
+- use respectful, gender-neutral and inclusive language (learn more about [inclusive writing](https://www2.le.ac.uk/offices/ld/all-resources/writing/writing-resources/inclusive), resource by the University of Leicester).
 - aim to include perspectives of folks from all walks of life
-- make sure that your content is accessible (we recommend running [pa11y](https://github.com/pa11y/pa11y) locally before committing your changes). If adding figures ensure your colour palette is color-blind friendly. Here's a useful blog post on [tips for designing scientific figures](http://www.somersault1824.com/tips-for-designing-scientific-figures-for-color-blind-readers) for color blind readers by Luk at [Somersault 1824](http://www.somersault1824.com/).
+- make sure that your content is accessible (we recommend running [pa11y](https://github.com/pa11y/pa11y) locally before committing your changes). If adding figures ensure your colour palette is colour-blind friendly. Here's a useful blog post on [tips for designing scientific figures](http://www.somersault1824.com/tips-for-designing-scientific-figures-for-color-blind-readers) for colour blind readers by Luk at [Somersault 1824](http://www.somersault1824.com/).
 
 ## Get in touch
 
@@ -48,7 +48,7 @@ There are many ways to get in touch:
 - Github [issues][issues]
   - Join a discussion or collaborate on ongoing tasks
 - [@mentoredsprints](https://twitter.com/mentoredsprints) on Twitter
-- Our mailing list / newsletter
+- Our mailing list/newsletter
 - [Email the core team ](www.mentored-sprints.dev/contact)
 
 ## :raised_hands: Contributing through GitHub
@@ -128,7 +128,7 @@ Please try to make sure that your enhancement is distinct from any others previo
   
 * ![Target: project ✨](https://img.shields.io/badge/-Type:%20Project%20📖-4cc9f0.svg) Related to how we interact with and support projects.
   
-* ![Target: organisers ✨](https://img.shields.io/badge/-Type:%20Organisers%20📖-00509d.svg) Related to how we interact with and support organisers.
+* ![Target: organizers ✨](https://img.shields.io/badge/-Type:%20Organisers%20📖-00509d.svg) Related to how we interact with and support organizers.
 
 #### Issue or PR status
 
@@ -160,7 +160,7 @@ Please try to make sure that your enhancement is distinct from any others previo
 
 <br>
 
-* ![PR: In review](https://img.shields.io/badge/-PR:%20In%20review-4D49BF.svg) These PRs are being currently reviewed by someone else.
+* ![PR: In review](https://img.shields.io/badge/-PR:%20In%20review-4D49BF.svg) These PRs are currently reviewed by someone else.
 
 <br>
 
@@ -193,7 +193,7 @@ The following steps are a guide to help you contribute in a way that will be eas
   - List of changes proposed in the pull request.
   - Describe what the reviewer should concentrate their feedback on.
 
-  If you have opened the pull request early and know that its contents are not ready for review or to be merged, add "[WIP]" at the start of the pull request title, which stands for "Work in Progress". When you are happy with it and are happy for it to be merged into the main repository, change the "[WIP]" in the title of the pull request to "[Ready for review]". Also, make sure to add the labels `PR: Draft` or `PR: MRG ready` accordingly.
+  If you have opened the pull request early and know that its contents are not ready for review or to be merged, add "[WIP]" at the start of the pull request title, which stands for "Work in Progress". When you are happy with it and are ready it to be merged into the central repository, change the "[WIP]" in the title of the pull request to "[Ready for review]". Also, make sure to add the labels `PR: Draft` or `PR: MRG ready` accordingly.
 
   **Success!!** :tada: Well done! :smiley: :tada: :sparkles:
 
