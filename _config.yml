@@ -17,7 +17,7 @@ header:
     - label: Organisers
       url: /getstarted
     - label: Community Handbook
-      url: 'https://mentored-sprints.netlify.app/'
+      url: /handbook/
 footer:
   logo_img: images/logo/logo-alt.svg
   # tagline:
@@ -73,4 +73,5 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-include: [_redirects]
+include:
+  - _redirects
