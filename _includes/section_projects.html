@@ -24,7 +24,7 @@
             {% if avatar_is_not_empty %}
             <img class="project-avatar" src="{{ project.avatar | relative_url }}" alt="Project logo">
             {% endif %}
-            <cite class="project-name">{{ project.project }}</cite>
+            <a class="project-url" href="{{ project.url }}"><cite class="project-name">{{ project.project }}</cite></a>
           </footer>
           <p class="project-text">{{ project.content }}</p>
         </div><!-- .project-inside -->
