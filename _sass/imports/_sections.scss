@@ -326,7 +326,7 @@
     background-color: _palette(dark);
     cursor: pointer;
     border-radius: 3px;
-    border: 3px solid _palette(accent);
+    border: 3px solid _palette(secondary);
 
     text-decoration: none;
     transition: all .1s ease-out;
@@ -341,9 +341,9 @@
       }
 
       &:hover{
-      background-size: 90%;
-      transform: translate(0.5em,-0.5em);
-      box-shadow: -0.5em 0.5em .15em transparentize(_palette(accent),.5);
+      // transform: translate(0.1em,-0.1em);
+      // box-shadow: -0.5em 0.5em .15em transparentize(_palette(accent),.5);
+      // border: 3px solid transparentize(_palette(secondary), .6);
       }
     }
 
@@ -836,16 +836,38 @@
 
 // slick
 
-.slick-next, .slick-next-icon{
-  color: _palette(off-white)!important;
-  opacity: 0.9!important;
-  
-  &:hover{
-    color: _palette(off-white);
-    opacity: 1.0;
-  }
+.slick-slide{
+  padding: 10px 10px;
 }
 
-.slick-slide{
-  padding: 0 10px;
-}
+.card-slider{
+    
+    button,
+    input[type="button"],
+    .button {
+
+      &.slick-next, .slick-next-icon, .slick-arrow{
+      color: _palette(off-white)!important;
+    }
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: _palette(dark);
+        border: none;
+        opacity: 1.0;
+      }
+    }
+      &.slick-prev, .slick-prev-icon, .slick-arrow{
+      color: _palette(off-white)!important;
+    }
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: _palette(dark);
+        border: none;
+        opacity: 1.0;
+      }
+    }
+  
