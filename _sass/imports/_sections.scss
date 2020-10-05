@@ -66,7 +66,7 @@
   .hero-block,
   .text-block,
   .block-item {
-    .grid {
+    .grid, .card-slider {
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
@@ -125,7 +125,7 @@
   .hero-block,
   .text-block,
   .block-item:nth-child(2n+1) {
-    .grid {
+    .grid, .card-slider{
       -webkit-flex-direction: row-reverse;
       -ms-flex-direction: row-reverse;
       flex-direction: row-reverse;
@@ -149,7 +149,7 @@
   }
 
   @media only screen and (min-width: 741px) {
-    .grid {
+    .grid ,.card-slider{
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
@@ -192,12 +192,13 @@
 }
 
 .review-inside {
-  background: #fff;
+  background: _palette(off-white);
   border: 1px solid _palette(border);
-  border-radius: 3px;
-  box-shadow: 0 3px 10px 0 rgba(_palette(primary),.1);
+  border-radius: none;
+  box-shadow: none;
   padding: 1.11111rem;
 }
+
 .review-inside-dark {
   background: _palette(bg);
   border: none;
@@ -298,7 +299,7 @@
 
 @media only screen and (min-width: 741px) {
   .reviews-block {
-    .grid {
+    .grid, .card-slider {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
@@ -308,6 +309,42 @@
       margin: 0 -0.83333rem;
 
       justify-content: center;
+    }
+
+    .card {
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex: 1 1 280px;
+    -ms-flex: 1 1 280px;
+    flex: 1 1 280px;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 10px;
+    background-color: _palette(dark);
+    cursor: pointer;
+    border-radius: 3px;
+    border: 3px solid _palette(accent);
+
+    text-decoration: none;
+    transition: all .1s ease-out;
+    &:first-child:nth-last-child(4),
+      &:first-child:nth-last-child(4) ~ .card {
+        min-width: 40%;
+      }
+
+      &:first-child:nth-last-child(5),
+      &:first-child:nth-last-child(5) ~ .card {
+        min-width: 30%;
+      }
+
+      &:hover{
+      background-size: 90%;
+      transform: translate(0.5em,-0.5em);
+      box-shadow: -0.5em 0.5em .15em transparentize(_palette(accent),.5);
+      }
     }
 
     .cell {
@@ -410,7 +447,7 @@
 
 @media only screen and (min-width: 940px) {
   .pricing-block {
-    .grid {
+    .grid,.card-slider{
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
@@ -775,7 +812,7 @@
 
     .button.secondary {
       background: transparent;
-      color: #fff;
+      color: _palette(off-white);
     }
 
     .block-title {

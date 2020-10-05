@@ -9,10 +9,10 @@ reframe(videoEmbeds.join(','));
 var menuToggle = document.querySelectorAll('.menu-toggle');
 
 for (var i = 0; i < menuToggle.length; i++) {
-  menuToggle[i].addEventListener('click', function(e){
+  menuToggle[i].addEventListener('click', function (e) {
     document.body.classList.toggle('menu--opened');
     e.preventDefault();
-  },false);
+  }, false);
 }
 
 document.body.classList.remove('menu--opened');
@@ -31,5 +31,29 @@ Array.from(accordions).forEach((accordion) => {
     panelClass: '.accordion-panel',
     panelInnerClass: '.accordion-content',
     openMultiplePanels: true
+  });
+});
+
+// Carousel
+$(document).ready(function () {
+  $('.card-slider').slick({
+    dots: false,
+    arrows: true,
+    slidesToShow: 4,
+    infinite: false,
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2
+        }
+      }
+    ]
   });
 });
