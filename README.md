@@ -5,7 +5,7 @@
 <br>
 
 <div align="center">
-<h1>mentored-sprints.dev</h1>k
+<h1><a href="https://mentored-sprints.dev">mentored-sprints.dev</a></h1>
 </div>
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://opensource.org/licenses/BSD-3-Clause)
@@ -15,7 +15,7 @@
 - [💻 Development](#-development)
   - [Running this Site Locally](#running-this-site-locally)
   - [📝 Adding content to the site](#-adding-content-to-the-site)
-    - [📅 Events:](#-events)
+    - [📅 Events](#-events)
     - [:pencil: Website section](#-website-section)
   - [:book: Style-guide](#-style-guide)
     - [:art: Colours](#-colours)
