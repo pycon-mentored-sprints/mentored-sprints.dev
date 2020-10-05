@@ -7,7 +7,7 @@ collections:
 palette: blue
 header:
   title: Mentored sprints
-  logo_img: images/logo/logo-alt.svg
+  logo_img: images/logo/logo-alt.png
   has_nav: true
   nav_links:
     - label: Home
