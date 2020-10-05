@@ -35,25 +35,10 @@ Array.from(accordions).forEach((accordion) => {
 });
 
 // Carousel
-$(document).ready(function () {
-  $('.card-slider').slick({
-    dots: false,
-    arrows: true,
-    slidesToShow: 4,
-    infinite: false,
-    responsive: [
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2
-        }
-      }
-    ]
-  });
+$('.card-slider').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 2,
 });

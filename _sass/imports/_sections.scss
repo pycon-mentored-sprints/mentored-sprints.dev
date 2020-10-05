@@ -66,7 +66,7 @@
   .hero-block,
   .text-block,
   .block-item {
-    .grid, .card-slider {
+    .grid{
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
@@ -125,7 +125,7 @@
   .hero-block,
   .text-block,
   .block-item:nth-child(2n+1) {
-    .grid, .card-slider{
+    .grid{
       -webkit-flex-direction: row-reverse;
       -ms-flex-direction: row-reverse;
       flex-direction: row-reverse;
@@ -149,7 +149,7 @@
   }
 
   @media only screen and (min-width: 741px) {
-    .grid ,.card-slider{
+    .grid{
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
@@ -299,7 +299,7 @@
 
 @media only screen and (min-width: 741px) {
   .reviews-block {
-    .grid, .card-slider {
+    .grid{
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
@@ -322,7 +322,7 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin: 10px;
+    margin: 2px;
     background-color: _palette(dark);
     cursor: pointer;
     border-radius: 3px;
@@ -447,7 +447,7 @@
 
 @media only screen and (min-width: 940px) {
   .pricing-block {
-    .grid,.card-slider{
+    .grid{
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
@@ -834,3 +834,18 @@
   }
 }
 
+// slick
+
+.slick-next, .slick-next-icon{
+  color: _palette(off-white)!important;
+  opacity: 0.9!important;
+  
+  &:hover{
+    color: _palette(off-white);
+    opacity: 1.0;
+  }
+}
+
+.slick-slide{
+  padding: 0 10px;
+}

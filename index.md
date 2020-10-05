@@ -43,6 +43,11 @@ sections:
         url: https://github.com/HypothesisWorks/hypothesis
         content: >-
           Hypothesis is a Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for. It is stable, powerful and easy to add to any existing test suite.
+      - project: Hypothesis-2
+        avatar: images/projects/hypothesis.png
+        url: https://github.com/HypothesisWorks/hypothesis
+        content: >-
+          Hypothesis is a Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for. It is stable, powerful and easy to add to any existing test suite.
       - project: Bokeh
         avatar: images/projects/bokeh.png
         url: https://github.com/bokeh/bokeh
