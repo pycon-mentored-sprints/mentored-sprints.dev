@@ -33,12 +33,17 @@
         </div>
 
         <footer>
-          <!-- <p>
-            <a href=""><i class="fa fa-facebook"></i></a>
-            <a href=""><i class="fa fa-linkedin"></i></a>
-            <a href=""><i class="fa fa-twitter"></i></a>
-            <a href=""><i class="fa fa-instagram"></i></a>
-          </p> -->
+          <p>
+            {% if team_member.twitter %}
+            <a class="card-link" href="{{ team_member.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
+            {% endif %}
+            {% if team_member.github %}
+            <a class="card-link" href="{{ team_member.github}}" target="_blank"><i class="fa fa-github"></i></a>
+            {% endif %}
+            {% if team_member.other %}
+            <a class="card-link" href="{{ team_member.other}}" target="_blank"><i class="fa fa-star"></i></a>
+            {% endif %}
+          </p>
         </footer>
       </div>
       {% endif %}

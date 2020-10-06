@@ -983,7 +983,7 @@
     max-width: 100%;
     margin: 0 auto 3.5rem;
 
-    a{
+    .card-link{
       display: block;
       width: 33.333333%;
       float: left;
@@ -996,7 +996,6 @@
         line-height: 39px;
         overflow: hidden;
         text-align: center;
-        border: 2px solid _palette(primary);
         border-radius: 50%;
         &:before{
           position: relative;
@@ -1039,6 +1038,7 @@
         -ms-transition: color .4s;
         -o-transition: color .4s;
         transition: color .4s;
+        border-bottom: none;
         &:hover{
           color: _palette(primary);
         }
