@@ -340,11 +340,6 @@
         min-width: 30%;
       }
 
-      &:hover{
-      // transform: translate(0.1em,-0.1em);
-      // box-shadow: -0.5em 0.5em .15em transparentize(_palette(accent),.5);
-      // border: 3px solid transparentize(_palette(secondary), .6);
-      }
     }
 
     .cell {
@@ -872,29 +867,27 @@
     .button {
 
       &.slick-next, .slick-next-icon, .slick-arrow{
-      color: _palette(off-white)!important;
-    }
-
+      color: _palette(meta-alt)!important;
       &:hover,
       &:focus,
       &:active {
-        background-color: _palette(dark);
+        background-color: transparent;
         border: none;
         opacity: 1.0;
       }
     }
-      &.slick-prev, .slick-prev-icon, .slick-arrow{
-      color: _palette(off-white)!important;
-    }
-
-      &:hover,
-      &:focus,
-      &:active {
-        background-color: _palette(dark);
-        border: none;
-        opacity: 1.0;
+        &.slick-prev, .slick-prev-icon, .slick-arrow{
+          color: _palette(meta-alt)!important;
+          &:hover,
+          &:focus,
+          &:active {
+            background-color: transparent;
+            border: none;
+            opacity: 1.0;
+        }
       }
     }
+  }
   
 // team section
 .card-two{
@@ -1040,7 +1033,7 @@
         transition: color .4s;
         border-bottom: none;
         &:hover{
-          color: _palette(primary);
+            color: _palette(primary);
         }
       }
     }

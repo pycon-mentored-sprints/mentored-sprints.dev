@@ -28,7 +28,7 @@ sections:
             primary: true
   - section_id: carousel
     type: section_carousel
-    background: dark
+    background: off-white
     title: Projects
     subtitle: >- 
       Meet some of the projects we have worked with
