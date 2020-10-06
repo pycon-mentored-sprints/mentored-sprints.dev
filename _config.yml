@@ -4,9 +4,14 @@ permalink: "/:title/"
 collections:
   posts:
     permalink: "/posts/:title/"
+
+# optional really as it's using a custom   theme
 palette: blue
+
+# navigation bar links
 header:
   title: Mentored sprints
+  # for a strange reason svgs does not work here
   logo_img: images/logo/logo-alt.png
   has_nav: true
   nav_links:
@@ -18,42 +23,56 @@ header:
       url: /getstarted
     - label: Community Handbook
       url: /handbook/
+
+# footer
 footer:
   logo_img: images/logo/logo-alt.svg
-  # tagline:
+  tagline: Making contribution sprints friendlier and more accessible to all
   has_nav: true
   nav_title: Mentored Sprints
   nav_links:
     - label: About Us
       url: /about
-    # - label: Blog
-    #   url: /blog
     - label: Organise a Sprint
       url: /getstarted
     - label: Contact
       url: /contact
     - label: Brand
       url: /brand
+  # social links
   has_social: true
   social_title: Community
   social_links:
     - label: Twitter
       url: "https://twitter.com/MentoredSprints"
       new_window: true
-    # - label: Discord
-    #   url: "https://www.instagram.com/"
-    #   new_window: true
     - label: GitHub
       url: "https://github.com/pycon-mentored-sprints"
       new_window: true
+  # subscription - TODO: link to Mailchimp
   has_subscribe: false
   subscribe_title: Newsletter
   subscribe_content: Stay up to date with upcoming sprints and developments. Join our mailing list here!
+
   content: "&copy; Mentored Sprints 2018-2020 | "
+
   links:
     - label: GitHub source
       url: "https://github.com/pycon-mentored-sprints/mentored-sprints.dev"
       new_window: true
+
+  # seo
+seo:
+  meta_og_title: "Mentored Sprints"
+  meta_og_type: "website"
+  meta_og_url: "https://mentored-sprints.dev"
+  meta_og_image: "https://raw.githubusercontent.com/pycon-mentored-sprints/digital-assets/7d2151142c84196d498a850b219a18066c19afb7/logos/white-pink-text-blue_1.svg"
+  meta_og_description: "Making contribution sprints more accessible and friendlier to all"
+
+  meta_twitter_card: "summary"
+  meta_twitter_site: "@mentoredsprints"
+  meta_twitter_creator: "@mentoredsprints"
+
 sass:
   indentWidth: 4
   style: nested
