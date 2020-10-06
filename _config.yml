@@ -23,6 +23,8 @@ header:
       url: /getstarted
     - label: Community Handbook
       url: /handbook/
+    - label: Team
+      url: /team
 
 # footer
 footer:
