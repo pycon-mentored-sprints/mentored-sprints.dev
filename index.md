@@ -32,49 +32,6 @@ sections:
     title: Projects
     subtitle: >- 
       Meet some of the projects we have worked with
-    projects:
-      - project: AdaFruit - CircuitPython
-        avatar: images/projects/circuitpython.png
-        url: https://github.com/adafruit/circuitpython
-        content: >-
-          CircuitPython is a programming language designed to simplify experimenting and learning to code on low-cost microcontroller boards.
-      - project: Hypothesis
-        avatar: images/projects/hypothesis.png
-        url: https://github.com/HypothesisWorks/hypothesis
-        content: >-
-          Hypothesis is a Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for. It is stable, powerful and easy to add to any existing test suite.
-      - project: Hypothesis-2
-        avatar: images/projects/hypothesis.png
-        url: https://github.com/HypothesisWorks/hypothesis
-        content: >-
-          Hypothesis is a Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for. It is stable, powerful and easy to add to any existing test suite.
-      - project: Bokeh
-        avatar: images/projects/bokeh.png
-        url: https://github.com/bokeh/bokeh
-        content: >-
-          Bokeh is an interactive visualization library for modern web browsers. It provides elegant, concise construction of versatile graphics, and affords high-performance interactivity over large or streaming datasets. 
-  # - section_id: projects
-  #   type: section_projects
-  #   background: dark
-  #   title: Projects
-  #   subtitle: >- 
-  #     Meet some of the projects we have worked with
-  #   projects:
-  #     - project: AdaFruit - CircuitPython
-  #       avatar: images/projects/circuitpython.png
-  #       url: https://github.com/adafruit/circuitpython
-  #       content: >-
-  #         CircuitPython is a programming language designed to simplify experimenting and learning to code on low-cost microcontroller boards.
-  #     - project: Hypothesis
-  #       avatar: images/projects/hypothesis.png
-  #       url: https://github.com/HypothesisWorks/hypothesis
-  #       content: >-
-  #         Hypothesis is a Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for. It is stable, powerful and easy to add to any existing test suite.
-  #     - project: Bokeh
-  #       avatar: images/projects/bokeh.png
-  #       url: https://github.com/bokeh/bokeh
-  #       content: >-
-  #         Bokeh is an interactive visualization library for modern web browsers. It provides elegant, concise construction of versatile graphics, and affords high-performance interactivity over large or streaming datasets. 
   - section_id: call-to-action
     type: section_cta
     title: Interested in organising your own mentored sprint?
