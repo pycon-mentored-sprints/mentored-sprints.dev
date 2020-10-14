@@ -17,38 +17,38 @@
     Bokeh is an interactive visualization library for modern web browsers. It provides elegant, concise construction of versatile graphics, and affords high-performance interactivity over large or streaming datasets.
 
 - project: Tensorflow
-  avatar:
+  avatar: images/projects/tensorflow.png
   url: https://github.com/tensorflow/tensorflow
   description: >-
     TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchers push the state-of-the-art in ML.
 
 - project: JupyterHub
-  avatar:
+  avatar: images/projects/jupyterhub.png
   url: https://github.com/jupyterhub/jupyterhub
   description: >-
     JupyterHub is the best way to serve Jupyter notebook for multiple users. It can be used in a classes of students, a corporate data science group or scientific research group. It is a multi-user Hub that spawns, manages, and proxies multiple instances of the single-user Jupyter notebook server.
 
 - project: PyPI wharehouse
-  avatar:
+  avatar: images/projects/pypi.png
   url: https://github.com/pypa/warehouse
   description: >-
     Warehouse is the software that powers PyPI (Python Package Index).
 
 - project: Folium
-  avatar:
+  avatar: images/projects/folium.jpeg
   url: https://github.com/python-visualization/folium
   description: >-
     Python Data, Leaflet.js Maps
     Folium builds on the data wrangling strengths of the Python ecosystem and the mapping strengths of the Leaflet.js library. Manipulate your data in Python, then visualize it in a Leaflet map via folium.
 
 - project: Bowler
-  avatar:
+  avatar: images/projects/bowler.png
   url: https://github.com/facebookincubator/bowler
   description: >-
     Bowler is a refactoring tool for manipulating Python at the syntax tree level. It enables safe, large scale code modifications while guaranteeing that the resulting code compiles and runs. It provides both a simple command line interface and a fluent API in Python for generating complex code modifications in code.
 
 - project: AsyncIO
-  avatar:
+  avatar: images/projects/python.jpg
   url: https://docs.python.org/3/library/asyncio.html
   description: >-
     asyncio is a library to write concurrent code using the async/await syntax.
@@ -74,31 +74,26 @@
   description: >-
 
 - project: GNU mailman
-  avatar:
+  avatar: images/projects/gnu.jpeg
   url: https://gitlab.com/mailman
   description: >-
     Mailman, the GNU Mailing List Manager
     Mailman is free software for managing electronic mail discussion and e-newsletter lists. Mailman is integrated with the web, making it easy for users to manage their accounts and for list owners to administer their lists. Mailman supports built-in archiving, automatic bounce processing, content filtering, digest delivery, spam filters, and more.
 
 - project: Prefect
-  avatar:
+  avatar: images/projects/prefect.svg
   url: https://github.com/PrefectHQ/prefect
   description: >-
     Prefect is a new workflow management system, designed for modern infrastructure and powered by the open-source Prefect Core workflow engine. Users organize Tasks into Flows, and Prefect takes care of the rest.
 
 - project: RustPython
-  avatar:
+  avatar: images/projects/rustpython.png
   url: https://github.com/RustPython/RustPython/
   description: >-
     RustPython is a Python implementation written in Rust. We want to unlock the same possibilities that Jython and IronPython enable, but for the Rust programming language. In addition, thanks to Rusts’ minimal runtime, we’re able to compile RustPython to WebAssembly and allow users to run their Python code easily in the browser.
 
 - project: Strawberry GraphQL
-  avatar:
+  avatar: images/projects/strawberry.png
   url: https://github.com/strawberry-graphql/strawberry
   description: >-
     Strawberry is a new GraphQL library for Python 3, inspired by dataclasses.
-
-# - project:
-#   avatar:
-#   url:
-#   description: >-
