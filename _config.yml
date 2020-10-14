@@ -54,7 +54,7 @@ footer:
   # subscription - TODO: link to Mailchimp
   has_subscribe: false
   subscribe_title: Newsletter
-  subscribe_content: Stay up to date with upcoming sprints and developments. Join our mailing list here!
+  subscribe_content: "Stay up to date with upcoming sprints and developments. Join our mailing list [here](https://mentored-sprints.dev/newsletter)!"
 
   content: "&copy; Mentored Sprints 2018-2020 | "
 
