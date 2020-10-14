@@ -4,6 +4,6 @@
 
 [[redirects]]
     from = "/handbook/*"
-    to = "https://mentored-sprints.netlify.app/:splat"
+    to = "https://mentored-sprints.netlify.app/handbook/:splat"
     status = 200
     force = true

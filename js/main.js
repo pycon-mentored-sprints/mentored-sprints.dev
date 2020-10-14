@@ -9,10 +9,10 @@ reframe(videoEmbeds.join(','));
 var menuToggle = document.querySelectorAll('.menu-toggle');
 
 for (var i = 0; i < menuToggle.length; i++) {
-  menuToggle[i].addEventListener('click', function(e){
+  menuToggle[i].addEventListener('click', function (e) {
     document.body.classList.toggle('menu--opened');
     e.preventDefault();
-  },false);
+  }, false);
 }
 
 document.body.classList.remove('menu--opened');
@@ -32,4 +32,13 @@ Array.from(accordions).forEach((accordion) => {
     panelInnerClass: '.accordion-content',
     openMultiplePanels: true
   });
+});
+
+// Carousel
+$('.card-slider').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 3
 });
