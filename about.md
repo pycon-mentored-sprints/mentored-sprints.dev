@@ -1,7 +1,7 @@
 ---
 title: About Mentored Sprints
 subtitle: >-
-  Making contribution sprints more accesible and friendlier to all.
+  Making contribution sprints more accessible and friendlier to all.
 image: images/wocintech1.jpg
 layout: page
 ---

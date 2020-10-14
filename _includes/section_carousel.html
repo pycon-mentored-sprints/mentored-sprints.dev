@@ -1,0 +1,41 @@
+{% assign section = include.section %}
+<section id="{{ section.section_id }}" class="block reviews-block bg-{{ section.background }} outer">
+    <div class="block-header inner-small">
+        {% assign title_is_not_empty = section.title | is_not_empty %}
+        {% if title_is_not_empty %}
+        <h2 class="block-title">{{ section.title }}</h2>
+        {% endif %}
+        {% assign subtitle_is_not_empty = section.subtitle | is_not_empty %}
+        {% if subtitle_is_not_empty %}
+        <p class="block-subtitle">
+            {{ section.subtitle }}
+        </p>
+        {% endif %}
+    </div><!-- .block-header -->
+
+
+    <div class="inner">
+        <div class="grid card-slider">
+            {% for project in site.data.projects %}
+
+            <blockquote class="card review">
+                <div class="review-inside-dark">
+                    <footer class="project-header">
+
+                        {% assign avatar_is_not_empty = project.avatar | is_not_empty %}
+                        {% if avatar_is_not_empty %}
+                        <img class="project-avatar" src="{{ project.avatar | relative_url }}" alt="Project logo">
+                        {% endif %}
+                        <a class="project-url" href="{{ project.url }}" target="_blank"><cite
+                                class="project-name">{{ project.project }}</cite></a>
+                    </footer>
+                    <p class="project-text">{{ project.description }}</p>
+                </div><!-- .project-inside -->
+            </blockquote><!-- .project -->
+
+            {% endfor %}
+
+        </div><!-- .grid -->
+    </div><!-- .inner -->
+
+</section><!-- .block -->
