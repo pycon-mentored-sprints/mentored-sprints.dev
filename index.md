@@ -29,7 +29,7 @@ sections:
   - section_id: carousel
     type: section_carousel
     background: off-white
-    title: Projects
+    title: Participating Projects
     subtitle: >- 
       Meet some of the projects we have worked with
   - section_id: call-to-action

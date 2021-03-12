@@ -3,8 +3,7 @@
  * ----------------------------------------------------------------------------
  */
 
-
- /* Clearing floats */
+/* Clearing floats */
 .event-content:after {
   clear: both;
 }
@@ -15,22 +14,21 @@
   display: table;
 }
 
-.event-content{
-color: _palette(dark);
+.event-content {
+  color: _palette(dark);
 
- h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      color: _palette(secondary);
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: _palette(secondary);
+  }
 }
 
 .event {
   margin-bottom: 3.33333em;
-  
 }
 
 .event-header {
@@ -38,18 +36,16 @@ color: _palette(dark);
   text-align: center;
 
   h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      color: _palette(secondary);
-    }
-  
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: _palette(secondary);
+  }
 
   .event-title {
     margin: 0 0 1.66667rem;
-    
 
     a {
       border: 0;
@@ -63,7 +59,6 @@ color: _palette(dark);
   }
 }
 
-
 .events-subtitle {
   border-bottom: 1px solid _palette(secondary);
   font-size: 1.33333rem;
@@ -75,6 +70,7 @@ color: _palette(dark);
 .events-thumbnail {
   display: block;
   margin-bottom: 1.66667rem;
+  object-fit: fill;
 
   img {
     width: 100%;
@@ -194,7 +190,6 @@ color: _palette(dark);
   .event-title {
     font-size: 1.33333rem;
     margin: 0;
-
   }
 
   .event-excerpt {

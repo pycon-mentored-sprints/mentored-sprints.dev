@@ -11,6 +11,9 @@ png and svg versions of all the digital assets can be found in [https://github.c
 
 Making contribution sprints more accessible and friendlier to all.
 
+Empowering oss leaders.
+Making oss more accessible.
+
 ## Meta description
 
 Mentored Sprints is a community-led project that aims to provide open-source mentorship to folks from all walks of life.
