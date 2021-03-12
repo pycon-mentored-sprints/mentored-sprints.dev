@@ -1,6 +1,6 @@
 
 <div align="center">
- <img alt="Logo" src="https://raw.githubusercontent.com/pycon-mentored-sprints/digital-assets/7d2151142c84196d498a850b219a18066c19afb7/logos/white-pink-text-blue_1.svg?raw=true" width="250" />
+ <img alt="Logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/MS_logo_white.png?raw=true" width="300" />
 </div>
 <br>
 
@@ -23,9 +23,9 @@
 - [:raised_hands: Contributing](#-contributing)
 - [:book: License](#-license)
 
-This repository contains the source code for [mentored-sprints.dev](mentored-sprints.dev) which is the main website for the project, events and the such.
+This repository contains the source code for [mentored-sprints.dev](mentored-sprints.dev), which is the main website for Mentored Sprints.
 
-If you are looking for the source for the [Community Handbook](https://github.com/pycon-mentored-sprints/community-handbook) head to [https://github.com/pycon-mentored-sprints/community-handbook](https://github.com/pycon-mentored-sprints/community-handbook).
+If you are looking for the source for the [Community Handbook](https://github.com/pycon-mentored-sprints/community-handbook), head to [https://github.com/pycon-mentored-sprints/community-handbook](https://github.com/pycon-mentored-sprints/community-handbook).
 
 ## 💻 Development
 
@@ -63,12 +63,12 @@ This website is build using Jekyll and served through Netlify. If you want to ma
 title: Your event name
 excerpt: >-
   Text to be displayed in the preview. Make it catchy and descriptive
-# note this is the date for the event not when the post is published
+# note this is the date for the event, not when the post is published
 date: '2020-10-15'
-# add images to images/events and update the path here, you can use the same image for the thumb and the main image on the post
+# add images to images/events and update the path here. You can use the same image for the thumb and the main image on the post
 thumb_image: images/hacktoberfest-folks.jpg
 image: images/hacktoberfest-folks.jpg
-# Uncomment this is you have registration open for example, or if you have a call to action
+# Uncomment this if you have registration open, for example, or if you have a call to action
 # actions:
 #   text: Registration for attendees is now open!
 #   url: https://github.com
@@ -88,12 +88,12 @@ layout: event
 - **action**: the text for the action button
 - **background**: any of the background styles (see [Style guide](#style-guide) and [Section colours](#-section-colours) for an example image)
 
-This will automatically add your event to the Events page and sort by date.
+Using the template ensures your event is added to the Events section and sorted by date.
 
 Once completed:
 
 1. Save and commit your changes
-1. Push your changes and create a pull request
+2. Push your changes and create a pull request
 
 #### :pencil: Website section
 
@@ -123,7 +123,7 @@ To add a new section to the main page.
 
 - **section_id**: make sure this is unique to the section
 - **background**: see [style guide](#style-guide)
-- **actions**: similar to events, this will add a call to action, make sure the url exists e.g. if redirecting to a new page in the site there has to be a corresponding `.md` file.
+- **actions**: similar to events, this adds a call to action, make sure the URL exists e.g. if redirecting to a new page in the site, there has to be a corresponding `.md` file.
 
 Once completed:
 
@@ -134,12 +134,12 @@ Once completed:
 
 #### :art: Colours
 
-The colours used in the site derive from the Mentored Sprints brand colours but have been optimised for web and accesibility:
+The colours used in the site derive from the Mentored Sprints brand colours, but we optimised for web and accessibility:
 
 | Name - theme reference   | COLOUR HEX CODE                                                      |
 | ------------------------ | -------------------------------------------------------------------- |
 | Kobi - primary           | ![#EDA0C4](https://placehold.it/15/EDA0C4/000000?text=%20) `#EDA0C4` |
-| Slate blue -secondart    | ![#5B63CE](https://placehold.it/15/5B63CE/000000?text=%20) `#5B63CE` |
+| Slate blue -secondary    | ![#5B63CE](https://placehold.it/15/5B63CE/000000?text=%20) `#5B63CE` |
 | Midle Blue Green -accent | ![#8DDDD2](https://placehold.it/15/8DDDD2/000000?text=%20) `#8DDDD2` |
 | Raisin black - dark      | ![#1B212F](https://placehold.it/15/1B212F/000000?text=%20) `#1B212F` |
 | Ghost white - white      | ![#F8F9FF](https://placehold.it/15/F8F9FF/000000?text=%20) `#F8F9FF` |
@@ -148,7 +148,7 @@ The colours used in the site derive from the Mentored Sprints brand colours but 
 
 The sections in the website can take any of the website colours: `dark`, `accent`, `primary`, `secondary`, `white` or `gradient`.
 
-For events, these are specified int he YAML header:
+For events, these are specified in the YAML header:
 
 ```yaml
 
@@ -165,9 +165,9 @@ and are rendered as:
 
 ## :raised_hands: Contributing
 
-🚧 This repository is always a work in progress, and everyone is encouraged to help us build something useful to the many. 🚧
+🚧 This repository is always a work in progress. And everyone is encouraged to help us build something useful to the many. 🚧
 
-Everyone is asked to follow our [Code of Conduct](https://mentored-sprints.netlify.app/code-conduct/) and to check out our [Contributing Guidelines](./CONTRIBUTING.md) for more information on how to get started.
+Everyone should follow our [Code of Conduct](https://mentored-sprints.netlify.app/code-conduct/) and check out our [Contributing Guidelines](./CONTRIBUTING.md) for more information on how to get started.
 
 ## :book: License
 
