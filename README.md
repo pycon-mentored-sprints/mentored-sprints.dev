@@ -138,7 +138,7 @@ The colours used in the site derive from the Mentored Sprints brand colours, but
 
 | Name - theme reference   | COLOUR HEX CODE                                                      |
 | ------------------------ | -------------------------------------------------------------------- |
-| Kobi - primary           | ![#EDA0C4](https://placehold.it/15/EDA0C4/000000?text=%20) `#EDA0C4` |
+| Light Wisteria - primary        | ![#ce89ce](https://placehold.it/15/ce89ce/000000?text=%20) `#ce89ce` |
 | Slate blue -secondary    | ![#5B63CE](https://placehold.it/15/5B63CE/000000?text=%20) `#5B63CE` |
 | Midle Blue Green -accent | ![#8DDDD2](https://placehold.it/15/8DDDD2/000000?text=%20) `#8DDDD2` |
 | Raisin black - dark      | ![#1B212F](https://placehold.it/15/1B212F/000000?text=%20) `#1B212F` |
@@ -146,12 +146,11 @@ The colours used in the site derive from the Mentored Sprints brand colours, but
 
 #### :bookmark: Section colours
 
-The sections in the website can take any of the website colours: `dark`, `accent`, `primary`, `secondary`, `white` or `gradient`.
+The sections in the website can take any of the website colours: `dark`, `accent`, `primary`, `secondary`, or `white`.
 
 For events, these are specified in the YAML header:
 
 ```yaml
-
 actions:
   text: Registration for attendees is now open!
   url: https://github.com

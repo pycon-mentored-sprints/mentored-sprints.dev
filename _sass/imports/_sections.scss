@@ -23,6 +23,10 @@
 
 .block-preview {
   margin-bottom: 1.66667rem;
+
+  img {
+    max-height: 260px;
+  }
 }
 
 .block-buttons {

@@ -3,7 +3,7 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/logo/hex-sticker.svg
+    image: images/slogan/slogan_black_right.svg
     title: Mentored Sprints
     content: >-
       Making open source contribution sprints friendlier and more accessible to all.

@@ -28,8 +28,9 @@ header:
 
 # footer
 footer:
-  logo_img: images/logo/MS_highcontrastlogo_transparent.svg
-  tagline: Making contribution sprints friendlier and more accessible to all
+  # logo_img: images/logo/MS_highcontrastlogo_transparent.svg
+  logo_img: images/slogan/slogan2_pink.svg
+  tagline: 
   has_nav: true
   nav_title: Mentored Sprints
   nav_links:
