@@ -18,10 +18,10 @@ sections:
     subtitle: >-
       Find when the next mentored sprints event is
     features:
-      - title: Hacktoberfest 2020
-        image: images/wocintech1.jpg
+      - title: PyCon US 2021 - online!
+        image: https://us.pycon.org/2021/static/images/square-logo-light.4c12d005d254.svg
         content: >-
-          Let's celebrate Hacktoberfest together! Join folks from Kedro, Terminus DB and Rasa.
+          Join us for the third year in a row at PyCon US. Note this is an online event.
         actions:
           - label: Learn More
             url: /events

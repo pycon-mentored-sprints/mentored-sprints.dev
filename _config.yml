@@ -5,14 +5,14 @@ collections:
   posts:
     permalink: "/posts/:title/"
 
-# optional really as it's using a custom   theme
+# optional really as it's using a custom theme
 palette: blue
 
 # navigation bar links
 header:
   title: Mentored sprints
   # for a strange reason svgs does not work here
-  logo_img: images/logo/logo-alt.png
+  logo_img: images/logo/MS_whitelogo_transparent.png
   has_nav: true
   nav_links:
     - label: Home
@@ -28,7 +28,7 @@ header:
 
 # footer
 footer:
-  logo_img: images/logo/logo-alt.svg
+  logo_img: images/logo/MS_highcontrastlogo_transparent.svg
   tagline: Making contribution sprints friendlier and more accessible to all
   has_nav: true
   nav_title: Mentored Sprints
@@ -56,7 +56,7 @@ footer:
   subscribe_title: Newsletter
   subscribe_content: "Stay up to date with upcoming sprints and developments. Join our mailing list [here](https://mentored-sprints.dev/newsletter)!"
 
-  content: "&copy; Mentored Sprints 2018-2020 | "
+  content: "&copy; Mentored Sprints 2018-2021 | "
 
   links:
     - label: GitHub source
