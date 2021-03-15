@@ -619,7 +619,7 @@
 
 .block {
   &.bg-dark {
-    color: _palette(border);
+    color: _palette(off-white);
     h1,
     h2,
     h3,
@@ -627,6 +627,25 @@
     h5,
     h6 {
       color: _palette(accent);
+    }
+    label {
+      color: _palette(meta-alt-light);
+    }
+    button,
+    input[type="submit"],
+    input[type="button"],
+    input[type="reset"],
+    .button {
+      background: transparent;
+      border-color: _palette(accent);
+      color: _palette(accent);
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: _palette(accent);
+        color: _palette(dark);
+      }
     }
   }
 
