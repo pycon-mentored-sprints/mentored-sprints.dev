@@ -1,55 +1,94 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <title>{% assign title_is_not_empty = page.title | is_not_empty %}{% if title_is_not_empty %}{{ page.title }} -
-        {% endif %}{{ site.title }}</title>
-    <meta charset="utf-8">
+  <head>
+    <title>
+      {% assign title_is_not_empty = page.title | is_not_empty %}{% if
+      title_is_not_empty %}{{ page.title }} - {% endif %}{{ site.title }}
+    </title>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google" content="notranslate" />
 
     <!-- stylesheets -->
+    <link rel="stylesheet" href="https://use.typekit.net/vby6sxz.css" />
+    <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
+
+    <!-- Add the core slick.min.css -->
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Quicksand:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/vby6sxz.css">
-    <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
-    <link rel="stylesheet" href="https://accessible360.github.io/accessible-slick/slick/slick.min.css">
-    <link rel="stylesheet" href="https://accessible360.github.io/accessible-slick/slick/accessible-slick-theme.min.css">
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/accessible-slick-theme.min.css"
+    />
 
     <!-- favicon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{'images/favicon_io/favicon-16x16.png' | relative_url}}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{'images/favicon_io/favicon-32x32.png' | relative_url}}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{'images/favicon_io/apple-touch-icon.png' | relative_url}}">
-    <link rel="manifest" href="{{'images/favicon_io/site.webmanifest' | relative_url}}">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{{'images/favicon/favicon-16x16.png' | relative_url}}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{'images/favicon/favicon-32x32.png' | relative_url}}"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{{'images/favicon/apple-touch-icon.png' | relative_url}}"
+    />
+    <link
+      rel="manifest"
+      href="{{'images/favicon/site.webmanifest' | relative_url}}"
+    />
 
     <!-- meta cards -->
     <meta property="og:title" content="{{ site.seo.meta_og_title }}" />
     <meta property="og:type" content="{{ site.seo.meta_og_type }}" />
     <meta property="og:url" content="{{ site.seo.meta_og_url }}" />
     <meta property="og:image" content="{{ site.seo.meta_og_image }}" />
-    <meta property="og:description" content="{{ site.seo.meta_og_description }}" />
+    <meta
+      property="og:description"
+      content="{{ site.seo.meta_og_description }}"
+    />
     <meta name="twitter:card" content="{{ site.seo.meta_twitter_card }}" />
     <meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}" />
-    <meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}" />
+    <meta
+      name="twitter:creator"
+      content="{{ site.seo.meta_twitter_creator }}"
+    />
     <meta property="twitter:title" content="{{ site.seo.meta_og_title }}" />
-    <meta property="twitter:description" content="{{ site.seo.meta_og_description }}" />
+    <meta
+      property="twitter:description"
+      content="{{ site.seo.meta_og_description }}"
+    />
     <meta property="twitter:image:src" content="{{ site.seo.meta_og_image }}" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     {{ content }}
     <!-- Scripts -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="https://accessible360.github.io/accessible-slick/slick/slick.min.js"></script>
-    <script src=" {{ 'js/plugins.js' | relative_url }}">
-    </script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.js"
+    ></script>
+    <script src=" {{ 'js/plugins.js' | relative_url }}"></script>
     <script src="{{ 'js/init.js' | relative_url }}"></script>
     <script src="{{ 'js/main.js' | relative_url }}"></script>
-    <script src="https://kit.fontawesome.com/7792b9298f.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/7792b9298f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

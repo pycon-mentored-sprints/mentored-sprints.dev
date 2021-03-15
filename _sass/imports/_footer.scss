@@ -26,17 +26,18 @@
     &:hover,
     &:focus {
       border-color: currentColor;
-      color: _palette(meta);
+      color: _palette(border);
+      border-bottom: solid 2px currentColor;
     }
   }
-   h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      color: _palette(meta);
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: _palette(meta-alt-light);
+  }
 }
 
 .footer-top {
@@ -85,10 +86,13 @@
       margin-bottom: 2.5rem;
     }
   }
-  
-  .site-logo {
+
+  .footer-logo {
     &:last-child {
       margin-bottom: 2.5rem;
+    }
+    img {
+      max-height: 160px;
     }
   }
 

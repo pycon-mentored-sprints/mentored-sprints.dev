@@ -9,7 +9,15 @@ png and svg versions of all the digital assets can be found in [https://github.c
 
 ## Slogans
 
+**Our long slogan:**
+
 Making contribution sprints more accessible and friendlier to all.
+
+**Short visual slogans:**
+
+Empowering oss leaders.
+
+Making oss more accessible.
 
 ## Meta description
 
@@ -22,39 +30,45 @@ We come from all walks of life and believe that the diversity of our community i
 
 - **Main brand colours:** These are the colours used for the logos and main assets.
 
-<div class="box" style="background-color:#283069">
-  <b style='color:white'>St Patricks Blue</b>
-  <p style='color:white'>#283069</p>
+<div class="box" style="background-color:#3632a6">
+  <b style='color:white'>Blue Gem</b>
+  <p style='color:white'>#3632a6</p>
 </div>
-<div class="box" style="background-color:#E7579A">
-  <b style='color:white'>Magenta Crayola</b>
-  <p style='color:white'>#E7579A</p>
+<div class="box" style="background-color:#36d9c8">
+  <b >Medium Turquoise</b>
+  <p >#36d9c8</p>
 </div>
-<div class="box" style="background-color:#FBDDEC">
-  <b >Mimi pink</b>
-  <p >#FBDDEC</p>
+<div class="box" style="background-color:#d089ff">
+  <b >Heliotrope</b>
+  <p >#d089ff</p>
 </div>
-
-[Check the palette here](https://coolors.co/283069-e7579a-fbddec-ffffff)
+<div class="box" style="background-color:#d1bafb">
+  <b >Mauve</b>
+  <p >#d1bafb</p>
+</div>
+<div class="box" style="background-color:#f6dfff">
+  <b >Pink lace</b>
+  <p >#f6dfff</p>
+</div>
 
 - **Website colours:** created from the main colour palette but optimised for accessibility and web display.
 
 <div class="columns is-multiline">
   <div class="column is-one-quarter">
-    <div class="box" style="background-color:#eda0c4">
-      <b >Kobi</b>
+    <div class="box" style="background-color:#ce89ce">
+      <b >Light wisteria - primary</b>
       <br>
-      <p >#eda0c4</p>
+      <p >#ce89ce</p>
     </div>
     <div class="box" style="background-color:#5b63ce">
       <b style='color:white'>Slate Blue</b>
       <br>
-      <p style='color:white'>#5b63ce</p>
+      <p style='color:white'>#4c54c9</p>
     </div>
     <div class="box" style="background-color:#768de4">
-      <b style='color:white'>Cornflower Blue</b>
+      <b style='color:black'>Cornflower Blue</b>
       <br>
-      <p style='color:white'>#768de4</p>
+      <p style='color:black'>#768de4</p>
     </div>
     <div class="box" style="background-color:#8DDDD2">
       <b >Middle Blue Green</b>
@@ -74,59 +88,41 @@ We come from all walks of life and believe that the diversity of our community i
   </div>
 </div>
 
-[Check the palette here](https://coolors.co/eda0c4-5b63ce-768de4-8dddd2-1b212f-f8f9ff)
-
 ## Typography
 
 - Website: [New-hero](https://newlyn.com/fonts/new-hero/)
-- Logos: [Somatic Rounded](https://www.behance.net/gallery/44235631/Somatic-Rounded-A-free-font-ideal-for-logotypes)
+- Logo and mark: [Rotunda](https://befonts.com/rotunda-font.html)
 
 ## Visuals
 
 You can find our logos in this [GitHub repository](https://github.com/pycon-mentored-sprints/digital-assets) and you can also download any of these images below by clicking on them.
 
-### Text only
+### Logos and marks
 
----
+| Asset                                                                                                       | Recommended usage                                                                                       | Type of asset                              |   |   |
+|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------|---|---|
+| ![Mentored Sprints main logo](https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/MS_logo_transparent.png?raw=true) | This is our main logo use on light backgrounds                                                          | Main logo - transparent background         |   |   |
+| ![Mentored Sprints main logo transparent](https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/MS_logo_white.png?raw=true)      | Use this logo when you need a white background                                                          | Main logo - white background               |   |   |
+| ![Mentored Sprints main mark](https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/MS_mark_squared.png?raw=true)   | Use this for social media, profiles or when the main logo is too big                                    | Main mark - white squared                  |   |   |
+| ![Mentored Sprints main brand](https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/MS_brand_white.png?raw=true)      | Use this when the main logo is too big for the space                                                    | Main brand - white background, rectangular |   |   |
+| ![Mentored Sprints alt mark](https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/MS_altmark_squared.png?raw=true)  | Use this for social media, profiles (preferred over the white version) or when the main logo is too big | Alt mark - blue squared                    |   |   |
+| ![Mentored Sprints alt logo](https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/MS_altlogo_blue.png?raw=true)     | This is the secondary logo                                                                              | Secondary - white text on blue             |   |   |
+| ![Mentored Sprints main brand](https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/MS_altbrand_blue.png?raw=true)    | Secondary mark - use when the main logo is too big for the space                                        | Alt mark - white text on blue              |   |   |
 
-#### png
+### Locking
 
-- **Transparent**
-<br>
-<br>
-<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/blue-blush-transparent.png?raw=true" width="200">
-<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/blue-pink-text-transparent.png?raw=true" width="200">
+Including enough clear space around the lockup protects its integrity and clarity. Use the height of the "d" letter in Mentored to keep intruding elements at bay.
 
-- **Background**
-<br>
-<br>
-<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/blue-charm-text-pink.png?raw=true" width="200">
-<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/squared-logo-type.png?raw=true" width="200">
-<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/white-pink-text-blue_1.png?raw=true" width="200">
-
----
-
-#### svg
-
-- **Transparent**
-<br>
-<br>
-<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/blue-blush-transparent.svg?raw=true" width="200">
-<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/blue-pink-text-transparent.svg?raw=true" width="200">
-
-- **Background**
-<br>
-<br>
-<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/blue-charm-text-pink.svg?raw=true" width="200">
-<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/squared-logo-type.svg?raw=true" width="200">
-<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/white-pink-text-blue_1.svg?raw=true" width="200">
+![lockup guide image](https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/logo_locking.png?raw=true)
 
 ### Banners
 
-![banner](https://github.com/pycon-mentored-sprints/digital-assets/blob/master/social/twitter-banner.png?raw=true)
+![Mentored Sprints official banner](https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/banners/banner.png?raw=true)
+
+![Mentored Sprints official slim  banner](https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/banners/banner-slim.png?raw=true)
 
 ### Swag ready
 
-<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/swag/hex-sticker-transparent.svg?raw=true" width="400">
+Please note this is still the previous branding.
+
 <img alt="logo" src="https://raw.githubusercontent.com/pycon-mentored-sprints/digital-assets/d8ad284d2d687f263bfbce11b6c86cdf72421518/swag/hex-sticker.svg" width="400">
-<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/swag/text-small-rectangle.png?raw=true" width="300">

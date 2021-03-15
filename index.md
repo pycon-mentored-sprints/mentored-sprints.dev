@@ -3,7 +3,7 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/logo/hex-sticker.svg
+    image: images/slogan/slogan_black_right.svg
     title: Mentored Sprints
     content: >-
       Making open source contribution sprints friendlier and more accessible to all.
@@ -18,10 +18,10 @@ sections:
     subtitle: >-
       Find when the next mentored sprints event is
     features:
-      - title: Hacktoberfest 2020
-        image: images/wocintech1.jpg
+      - title: PyCon US 2021 - online!
+        image: https://us.pycon.org/2021/static/images/square-logo-light.4c12d005d254.svg
         content: >-
-          Let's celebrate Hacktoberfest together! Join folks from Kedro, Terminus DB and Rasa.
+          Join us for the third year in a row at PyCon US. Note this is an online event.
         actions:
           - label: Learn More
             url: /events
@@ -29,7 +29,7 @@ sections:
   - section_id: carousel
     type: section_carousel
     background: off-white
-    title: Projects
+    title: Participating Projects
     subtitle: >- 
       Meet some of the projects we have worked with
   - section_id: call-to-action

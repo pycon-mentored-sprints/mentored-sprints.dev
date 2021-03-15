@@ -1,44 +1,57 @@
 {% assign section = include.section %}
-<section id="{{ section.section_id }}" class="block events-block bg-{{ section.background }} outer">
+<section
+  id="{{ section.section_id }}"
+  class="block events-block bg-{{ section.background }} outer"
+>
   <div class="block-header inner-small">
-    {% assign title_is_not_empty = section.title | is_not_empty %}
-    {% if title_is_not_empty %}
+    {% assign title_is_not_empty = section.title | is_not_empty %} {% if
+    title_is_not_empty %}
     <h2 class="block-title">{{ section.title }}</h2>
+    {% endif %} {% assign subtitle_is_not_empty = section.subtitle |
+    is_not_empty %} {% if subtitle_is_not_empty %}
+    <p class="block-subtitle">{{ section.subtitle }}</p>
     {% endif %}
-    {% assign subtitle_is_not_empty = section.subtitle | is_not_empty %}
-    {% if subtitle_is_not_empty %}
-    <p class="block-subtitle">
-      {{ section.subtitle }}
-    </p>
-    {% endif %}
-  </div><!-- .block-header -->
+  </div>
+  <!-- .block-header -->
   <div class="inner">
     <div class="event-feed">
-      {% assign display_events = '/events' | get_pages | sort: 'date' %}
-      {% assign slice_length = 5 | minus: 0 %}
-      {% assign recent_events = display_events | slice: 0, slice_length %}
-      {% for event in recent_events %}
+      {% assign display_events = '/events' | get_pages | sort: 'date' %} {%
+      assign slice_length = 5 | minus: 0 %} {% assign recent_events =
+      display_events | slice: 0, slice_length %} {% for event in recent_events
+      %}
       <article class="event event-card">
         <div class="event-card-inside">
-          {% assign thumb_image_is_not_empty = event.thumb_image | is_not_empty %}
-          {% if thumb_image_is_not_empty %}
+          {% assign thumb_image_is_not_empty = event.thumb_image | is_not_empty
+          %} {% if thumb_image_is_not_empty %}
           <a class="event-card-thumbnail" href="{{ event.url | relative_url }}">
-            <img class="thumbnail" src="{{ event.thumb_image | relative_url }}" alt="{{ event.title }}" />
+            <img
+              class="thumbnail"
+              src="{{ event.thumb_image | relative_url }}"
+              alt="{{ event.title }} -upcoming event"
+            />
           </a>
           {% endif %}
           <div class="event-card-content">
             <header class="event-header">
-              <h3 class="event-title"><a href="{{ event.url | relative_url }}" rel="bookmark">{{ event.title }}</a></h3>
+              <h3 class="event-title">
+                <a href="{{ event.url | relative_url }}" rel="bookmark"
+                  >{{ event.title }}</a
+                >
+              </h3>
             </header>
-            <div class="event-excerpt">
-              {{ event.excerpt | markdownify }}
-            </div>
+            <div class="event-excerpt">{{ event.excerpt | markdownify }}</div>
 
             Date: {% include event_footer.html page=event date_type='short' %}
-          </div><!-- .event-card-content -->
-        </div><!-- .event-card-inside -->
-      </article><!-- .event -->
+          </div>
+          <!-- .event-card-content -->
+        </div>
+        <!-- .event-card-inside -->
+      </article>
+      <!-- .event -->
       {% endfor %}
-    </div><!-- .event-feed -->
-  </div><!-- .inner -->
-</section><!-- .block -->
+    </div>
+    <!-- .event-feed -->
+  </div>
+  <!-- .inner -->
+</section>
+<!-- .block -->
