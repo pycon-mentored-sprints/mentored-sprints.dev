@@ -29,7 +29,7 @@ jobs:
             ${{ runner.os }}-node-s
       - uses: actions/setup-ruby@v1
         with:
-          ruby-version: "2.6"
+          ruby-version: "2.7"
         name: setup Ruby
       - name: Install deps
         run: |
@@ -44,5 +44,5 @@ jobs:
       - name: Checks
         run: |
           bundle exec jekyll build
-          bundle exec jekyll serve -B & sleep 5 & npm run test-pa11y
+          bundle exec jekyll serve -B & sleep 15 & npm run test-pa11y
           pkill -f jekyll
