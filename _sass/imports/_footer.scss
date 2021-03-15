@@ -26,7 +26,8 @@
     &:hover,
     &:focus {
       border-color: currentColor;
-      color: _palette(meta);
+      color: _palette(border);
+      border-bottom: solid 2px currentColor;
     }
   }
   h1,
@@ -35,7 +36,7 @@
   h4,
   h5,
   h6 {
-    color: _palette(meta-alt);
+    color: _palette(meta-alt-light);
   }
 }
 

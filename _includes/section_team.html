@@ -1,53 +1,63 @@
 {% assign section = include.section %}
-<section id="{{ section.section_id }}" class="block reviews-block bg-{{ section.background }} outer">
+<section
+  id="{{ section.section_id }}"
+  class="block reviews-block bg-{{ section.background }} outer"
+>
   <div class="block-header inner-small">
-    {% assign title_is_not_empty = section.title | is_not_empty %}
-    {% if title_is_not_empty %}
+    {% assign title_is_not_empty = section.title | is_not_empty %} {% if
+    title_is_not_empty %}
     <h2 class="block-title">{{ section.title }}</h2>
+    {% endif %} {% assign subtitle_is_not_empty = section.subtitle |
+    is_not_empty %} {% if subtitle_is_not_empty %}
+    <p class="block-subtitle">{{ section.subtitle }}</p>
     {% endif %}
-    {% assign subtitle_is_not_empty = section.subtitle | is_not_empty %}
-    {% if subtitle_is_not_empty %}
-    <p class="block-subtitle">
-      {{ section.subtitle }}
-    </p>
-    {% endif %}
-  </div><!-- .block-header -->
+  </div>
+  <!-- .block-header -->
 
   <div class="inner">
     <div class="grid">
-
-      {% for person in site.data.team %}
-      {% assign team_member = person[1] %}
-      {% assign name_not_empty = team_member.first_name | is_not_empty %}
-      {% if name_not_empty %}
+      {% for person in site.data.team %} {% assign team_member = person[1] %} {%
+      assign name_not_empty = team_member.first_name | is_not_empty %} {% if
+      name_not_empty %}
       <div class="card-two">
         <header>
           <div class="avatar">
-            <img src="{{team_member.photo}}" alt="{{team.member.first_name}} {{team_member.last_name}}" />
+            <img
+              src="{{team_member.photo}}"
+              alt="{{team.member.first_name}} {{team_member.last_name}}"
+            />
           </div>
         </header>
 
         <h4>{{team_member.first_name}} {{team_member.last_name}}</h4>
-        <div class=" desc">
-          {{ team_member.bio }}
-        </div>
+        <div class="person-description">{{ team_member.bio }}</div>
 
         <footer>
           <p>
             {% if team_member.twitter %}
-            <a class="card-link" href="{{ team_member.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
-            {% endif %}
-            {% if team_member.github %}
-            <a class="card-link" href="{{ team_member.github}}" target="_blank"><i class="fa fa-github"></i></a>
-            {% endif %}
-            {% if team_member.other %}
-            <a class="card-link" href="{{ team_member.other}}" target="_blank"><i class="fa fa-star"></i></a>
+            <a class="card-link" href="{{ team_member.twitter}}" target="_blank"
+              ><i class="fa fa-twitter" aria-hidden="true"
+                ><span class="sr-only">Twitter profile</span></i
+              ></a
+            >
+            {% endif %} {% if team_member.github %}
+            <a class="card-link" href="{{ team_member.github}}" target="_blank"
+              ><i class="fa fa-github" aria-hidden="true"
+                ><span class="sr-only">GitHub profile</span></i
+              ></a
+            >
+            {% endif %} {% if team_member.other %}
+            <a class="card-link" href="{{ team_member.other}}" target="_blank"
+              ><i class="fa fa-star" aria-hidden="true"
+                ><span class="sr-only">{{team_member.name}} website</span></i
+              ></a
+            >
             {% endif %}
           </p>
         </footer>
       </div>
-      {% endif %}
-      {% endfor %}
+      {% endif %} {% endfor %}
     </div>
   </div>
-</section><!-- .block -->
+</section>
+<!-- .block -->
