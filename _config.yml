@@ -39,9 +39,9 @@ footer:
       url: /about
     - label: Organise a Sprint
       url: /getstarted
-    - label: Contact
+    - label: Contact Us
       url: /contact
-    - label: Brand
+    - label: Brand guidelines
       url: /brand
   # social links
   has_social: true
