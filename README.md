@@ -16,14 +16,14 @@
   - [Running this Site Locally](#running-this-site-locally)
   - [📝 Adding content to the site](#-adding-content-to-the-site)
     - [📅 Events](#-events)
-    - [:pencil: Website section](#-website-section)
-  - [:book: Style-guide](#-style-guide)
-    - [:art: Colours](#-colours)
-    - [:bookmark: Section colours](#-section-colours)
-- [:raised_hands: Contributing](#-contributing)
-- [:book: License](#-license)
+    - [:pencil: Website section](#pencil-website-section)
+  - [:book: Style-guide](#book-style-guide)
+    - [:art: Colours](#art-colours)
+    - [:bookmark: Section colours](#bookmark-section-colours)
+- [:raised_hands: Contributing](#raised_hands-contributing)
+- [:book: License](#book-license)
 
-This repository contains the source code for [mentored-sprints.dev](mentored-sprints.dev), which is the main website for Mentored Sprints.
+This repository contains the source code for [mentored-sprints.dev](https://mentored-sprints.dev), which is the main website for Mentored Sprints.
 
 If you are looking for the source for the [Community Handbook](https://github.com/pycon-mentored-sprints/community-handbook), head to [https://github.com/pycon-mentored-sprints/community-handbook](https://github.com/pycon-mentored-sprints/community-handbook).
 
@@ -100,7 +100,7 @@ Once completed:
 To add a new section to the main page.
 
 1. Clone the project and make a new branch `content/<whatever>`
-2. Open [.index.md](./index.md)
+2. Open [./index.md](./index.md)
 3. Add your section where needed:
 
 ```yml
