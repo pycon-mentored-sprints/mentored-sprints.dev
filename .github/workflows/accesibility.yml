@@ -44,5 +44,6 @@ jobs:
       - name: Checks
         run: |
           bundle exec jekyll build
-          bundle exec jekyll serve -B & sleep 15 & npm run test-pa11y
+          bundle exec jekyll serve -B & sleep 30 
+          npm run test-pa11y
           pkill -f jekyll

@@ -63,12 +63,12 @@ We come from all walks of life and believe that the diversity of our community i
     <div class="box" style="background-color:#5b63ce">
       <b style='color:white'>Slate Blue</b>
       <br>
-      <p style='color:white'>#5b63ce</p>
+      <p style='color:white'>#4c54c9</p>
     </div>
     <div class="box" style="background-color:#768de4">
-      <b style='color:white'>Cornflower Blue</b>
+      <b style='color:black'>Cornflower Blue</b>
       <br>
-      <p style='color:white'>#768de4</p>
+      <p style='color:black'>#768de4</p>
     </div>
     <div class="box" style="background-color:#8DDDD2">
       <b >Middle Blue Green</b>

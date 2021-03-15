@@ -1,4 +1,5 @@
 title: Mentored Sprints
+url: "https://mentored-sprints.dev"
 baseurl: /
 permalink: "/:title/"
 collections:
@@ -82,6 +83,7 @@ sass:
   precision: 10
 plugins:
   - jekyll-menus
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
