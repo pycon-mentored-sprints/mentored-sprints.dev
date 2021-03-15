@@ -5,6 +5,6 @@
         "pa11y-ci": "~1.0"
     },
     "scripts": {
-        "test-pa11y": "./node_modules/.bin/pa11y-ci --config ${{ github.workspace }}/.pa11yci.json"
+        "test-pa11y": "./node_modules/.bin/pa11y-ci --config ./.pa11yci.json"
     }
 }
