@@ -56,8 +56,8 @@ This website is build using Jekyll and served through Netlify. If you want to ma
 
 1. Make a copy of the [event template](./templates/event-template.md) and place it in the [events directory](./events). Make sure to name it following this pattern `<event-name>-<event-date-YY-mm-dd>`.
 
-3. Fill in the event metadata:
-  
+1. Fill in the event metadata:
+
 ```yml
 ---
 title: Your event name
@@ -100,9 +100,9 @@ Once completed:
 To add a new section to the main page.
 
 1. Clone the project and make a new branch `content/<whatever>`
-2. Open `index.md`
+2. Open [.index.md](./index.md)
 3. Add your section where needed:
-   
+
 ```yml
 - section_id: upcoming_events
  type: section_features
@@ -171,4 +171,4 @@ Everyone should follow our [Code of Conduct](https://mentored-sprints.netlify.ap
 ## :book: License
 
 The code for this site is Licensed as [BSD-3](https://opensource.org/licenses/BSD-3-Clause) and the content is licensed as
-[CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) ⓒ[Mentored Sprints](mentored-sprints.dev).
+[CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) ⓒ[Mentored Sprints](https://mentored-sprints.dev).

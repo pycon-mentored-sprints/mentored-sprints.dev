@@ -1,4 +1,4 @@
-name: Check site
+name: Check URLs
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
       - feature/*
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Check URLs
