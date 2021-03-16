@@ -14,8 +14,8 @@
 
 - [💻 Development](#-development)
   - [Running this Site Locally](#running-this-site-locally)
-  - [📝 Adding content to the site](#-adding-content-to-the-site)
-    - [📅 Events](#-events)
+  - [:pencil: Adding content to the site](#pencil-adding-content-to-the-site)
+    - [:calendar: Events](#calendar-events)
     - [:pencil: Website section](#pencil-website-section)
   - [:book: Style-guide](#book-style-guide)
     - [:art: Colours](#art-colours)
@@ -23,9 +23,9 @@
 - [:raised_hands: Contributing](#raised_hands-contributing)
 - [:book: License](#book-license)
 
-This repository contains the source code for [https://mentored-sprints.dev](https://mentored-sprints.dev), which is the main website for Mentored Sprints.
+This repository contains the source code for [https://mentored-sprints.dev][MS-website], which is the main website for this community project.
 
-If you are looking for the source for the [Community Handbook](https://github.com/pycon-mentored-sprints/community-handbook), head to [https://github.com/pycon-mentored-sprints/community-handbook](https://github.com/pycon-mentored-sprints/community-handbook).
+If you are looking for the source for the [Community Handbook][community-handbook-repo], head to [https://github.com/pycon-mentored-sprints/community-handbook][community-handbook-repo].
 
 ## 💻 Development
 
@@ -48,9 +48,9 @@ This website is build using Jekyll and served through Netlify. If you want to ma
 
 5. Browse to [http://localhost:4000](http://localhost:4000)
 
-### 📝 Adding content to the site
+### :pencil: Adding content to the site
 
-#### 📅 Events
+#### :calendar: Events
 
 1. Clone the project and make a new branch `event/event-name`
 
@@ -168,11 +168,15 @@ and are rendered as:
 
 ## :raised_hands: Contributing
 
-🚧 This repository is always a work in progress. And everyone is encouraged to help us build something useful to the many. 🚧
+:construction: This repository is always a work in progress. And everyone is encouraged to help us build something useful to the many. :construction:
 
 Everyone should follow our [Code of Conduct](https://mentored-sprints.netlify.app/code-conduct/) and check out our [Contributing Guidelines](./CONTRIBUTING.md) for more information on how to get started.
 
 ## :book: License
 
 The code for this site is Licensed as [BSD-3](https://opensource.org/licenses/BSD-3-Clause) and the content is licensed as
-[CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) ⓒ[Mentored Sprints](https://mentored-sprints.dev).
+[CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) ⓒ[Mentored Sprints][MS-website].
+
+<!-- Links -->
+[MS-website]: https://mentored-sprints.dev
+[community-handbook-repo]: https://github.com/pycon-mentored-sprints/community-handbook
