@@ -11,6 +11,7 @@ sections:
       - label: Learn More
         url: /about
         primary: true
+        aria: Learn more about Mentored Sprints and how the work
   - section_id: upcoming_events
     type: section_features
     background: white
@@ -26,6 +27,7 @@ sections:
           - label: Learn More
             url: /events
             primary: true
+            aria: Find more about the PyCon Mentored Sprints
   - section_id: carousel
     type: section_carousel
     background: off-white
@@ -40,6 +42,7 @@ sections:
       - label: Organise your sprint
         url: /getstarted
         primary: false
+        aria: Learn how you can organise your own Mentored Sprint
   # - section_id: recent-posts
   #   type: section_posts
   #   background: dark

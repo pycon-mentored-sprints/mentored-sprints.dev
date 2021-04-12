@@ -5,7 +5,7 @@
 <br>
 
 <div align="center">
-<h1><a href="https://mentored-sprints.dev">mentored-sprints.dev</a></h1>
+<h1><a href="https://mentored-sprints.dev">https://mentored-sprints.dev</a></h1>
 </div>
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://opensource.org/licenses/BSD-3-Clause)
@@ -14,8 +14,8 @@
 
 - [💻 Development](#-development)
   - [Running this Site Locally](#running-this-site-locally)
-  - [📝 Adding content to the site](#-adding-content-to-the-site)
-    - [📅 Events](#-events)
+  - [:pencil: Adding content to the site](#pencil-adding-content-to-the-site)
+    - [:calendar: Events](#calendar-events)
     - [:pencil: Website section](#pencil-website-section)
   - [:book: Style-guide](#book-style-guide)
     - [:art: Colours](#art-colours)
@@ -23,9 +23,9 @@
 - [:raised_hands: Contributing](#raised_hands-contributing)
 - [:book: License](#book-license)
 
-This repository contains the source code for [mentored-sprints.dev](https://mentored-sprints.dev), which is the main website for Mentored Sprints.
+This repository contains the source code for [https://mentored-sprints.dev][MS-website], which is the main website for this community project.
 
-If you are looking for the source for the [Community Handbook](https://github.com/pycon-mentored-sprints/community-handbook), head to [https://github.com/pycon-mentored-sprints/community-handbook](https://github.com/pycon-mentored-sprints/community-handbook).
+If you are looking for the source for the [Community Handbook][community-handbook-repo], head to [https://github.com/pycon-mentored-sprints/community-handbook][community-handbook-repo].
 
 ## 💻 Development
 
@@ -48,9 +48,9 @@ This website is build using Jekyll and served through Netlify. If you want to ma
 
 5. Browse to [http://localhost:4000](http://localhost:4000)
 
-### 📝 Adding content to the site
+### :pencil: Adding content to the site
 
-#### 📅 Events
+#### :calendar: Events
 
 1. Clone the project and make a new branch `event/event-name`
 
@@ -72,8 +72,9 @@ image: images/hacktoberfest-folks.jpg
 # actions:
 #   text: Registration for attendees is now open!
 #   url: https://github.com
-#   action: Register
+#   action: Click here
 #   background: accent
+#   aria: description for screen readers
 # do not modify the layout
 layout: event
 ---
@@ -119,11 +120,13 @@ To add a new section to the main page.
        - label: Learn More
          url: /events
          primary: true
+         aria: description for screen readers
 ```
 
 - **section_id**: make sure this is unique to the section
 - **background**: see [style guide](#style-guide)
 - **actions**: similar to events, this adds a call to action, make sure the URL exists e.g. if redirecting to a new page in the site, there has to be a corresponding `.md` file.
+- **aria**: to make the content more accessible for screen readers provide a descriptive label for example: *Register to our PyCon Mentored Sprints* (For context read [this article on making links more acecssible](https://www.visionaustralia.org/services/digital-access/blog/how-to-make-read-more-links-accessible)).
 
 Once completed:
 
@@ -154,8 +157,9 @@ For events, these are specified in the YAML header:
 actions:
   text: Registration for attendees is now open!
   url: https://github.com
-  action: Register
+  action: Click here
   background: accent
+  aria: description for screen readers
 ```
 
 and are rendered as:
@@ -164,11 +168,15 @@ and are rendered as:
 
 ## :raised_hands: Contributing
 
-🚧 This repository is always a work in progress. And everyone is encouraged to help us build something useful to the many. 🚧
+:construction: This repository is always a work in progress. And everyone is encouraged to help us build something useful to the many. :construction:
 
 Everyone should follow our [Code of Conduct](https://mentored-sprints.netlify.app/code-conduct/) and check out our [Contributing Guidelines](./CONTRIBUTING.md) for more information on how to get started.
 
 ## :book: License
 
 The code for this site is Licensed as [BSD-3](https://opensource.org/licenses/BSD-3-Clause) and the content is licensed as
-[CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) ⓒ[Mentored Sprints](https://mentored-sprints.dev).
+[CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) ⓒ[Mentored Sprints][MS-website].
+
+<!-- Links -->
+[MS-website]: https://mentored-sprints.dev
+[community-handbook-repo]: https://github.com/pycon-mentored-sprints/community-handbook
