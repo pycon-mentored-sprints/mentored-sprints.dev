@@ -25,6 +25,10 @@ Mentored Sprints is a community-led project that aims to provide open-source men
 We build safe, friendly and welcoming open-source mentorship spaces.
 
 We come from all walks of life and believe that the diversity of our community is the most reliable asset we have. We also want to dismantle the notion of 'code' being the most valuable contribution made to open-source.
+## Twitter 
+
+The official account is [@MentoredSprints](https://twitter.com/MentoredSprints)
+and the official hashtag [#MentoredSprints](https://twitter.com/search?q=%23MentoredSprints).
 
 ## Colours
 
@@ -123,6 +127,14 @@ Including enough clear space around the lockup protects its integrity and clarit
 
 ### Swag ready
 
-Please note this is still the previous branding.
+Colour sticker:
 
-<img alt="logo" src="https://raw.githubusercontent.com/pycon-mentored-sprints/digital-assets/d8ad284d2d687f263bfbce11b6c86cdf72421518/swag/hex-sticker.svg" width="400">
+<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/swag/sticker.svg?raw=true" width="300">
+
+This is to be made in holohraphic stickers:
+
+<img alt="logo" src="https://github.com/pycon-mentored-sprints/digital-assets/blob/master/logos/swag/sticker_holographic.svg?raw=true" width="300">
+
+Please note this is still the previous branding:
+
+<img alt="logo" src="https://raw.githubusercontent.com/pycon-mentored-sprints/digital-assets/d8ad284d2d687f263bfbce11b6c86cdf72421518/swag/hex-sticker.svg" width="300">
