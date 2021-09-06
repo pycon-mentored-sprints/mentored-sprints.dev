@@ -19,10 +19,10 @@ sections:
     subtitle: >-
       Find when the next mentored sprints event is
     features:
-      - title: PyCon US 2021 - online!
-        image: https://us.pycon.org/2021/static/images/square-logo-light.4c12d005d254.svg
+      - title: PyCon India 2021 - online!
+        image: images/PyConIndia.jpg
         content: >-
-          Join us for the third year in a row at PyCon US. Note this is an online event.
+          Join us for the mentored sprints at PyCon India 2021.
         actions:
           - label: Learn More
             url: /events
