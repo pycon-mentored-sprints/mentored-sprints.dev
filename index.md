@@ -22,7 +22,7 @@ sections:
       - title: PyCon India 2021 - online!
         image: images/PyConIndia.jpg
         content: >-
-          Join us for the mentored sprints at PyCon India 2021.
+          Join us for the mentored sprints at PyCon India 2021. Note this is an online event.
         actions:
           - label: Learn More
             url: /events
