@@ -1,7 +1,7 @@
 ---
 title: Mentored Sprints at PyCon India 2021
 excerpt: >-
-  Text to be displayed in the preview. Make it catchy and descriptive
+  Join us for the mentored sprints at PyCon India 2021. Note this is an online event.
 # note this is the date for the event not when the post is published
 date: '2021-09-20'
 # add images to images/events and update the path here, you can use the same image for the thumb and the main image on the post
