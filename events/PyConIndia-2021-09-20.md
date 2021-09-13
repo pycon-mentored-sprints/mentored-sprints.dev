@@ -1,7 +1,7 @@
 ---
 title: Mentored Sprints at PyCon India 2021
 excerpt: >-
-  Text to be displayed in the preview. Make it catchy and descriptive
+  Join us for the mentored sprints at PyCon India 2021. Note this is an online event.
 # note this is the date for the event not when the post is published
 date: '2021-09-20'
 # add images to images/events and update the path here, you can use the same image for the thumb and the main image on the post
@@ -33,7 +33,7 @@ During the mentored sprints, people can contribute to open source projects, guid
 
 ### Getting involved
 
-The call for applications for projects close on the 15th of September 2021. We encourage creators and maintenars of open source projects to participate in the mentroed sprints.
+The call for applications for projects close on the 15th of September 2021. We encourage creators and maintenars of open source projects to participate in the mentored sprints.
 
 Please use the [Project and Mentor signup form](https://docs.google.com/forms/d/e/1FAIpQLSeilicM3g1eUpvCqL4IyM-gwhvu-itRwl_Xh2fN0WPQGm4QUw/viewform?usp=sf_link) to take part in the sprint.
 
