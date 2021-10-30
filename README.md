@@ -141,11 +141,11 @@ The colours used in the site derive from the Mentored Sprints brand colours, but
 
 | Name - theme reference   | COLOUR HEX CODE                                                      |
 | ------------------------ | -------------------------------------------------------------------- |
-| Light Wisteria - primary        | ![#ce89ce](https://placehold.it/15/ce89ce/000000?text=%20) `#ce89ce` |
-| Slate blue -secondary    | ![#4c54c9](https://placehold.it/15/5B63CE/000000?text=%20) `#5B63CE` |
-| Midle Blue Green -accent | ![#8DDDD2](https://placehold.it/15/8DDDD2/000000?text=%20) `#8DDDD2` |
-| Raisin black - dark      | ![#1B212F](https://placehold.it/15/1B212F/000000?text=%20) `#1B212F` |
-| Ghost white - white      | ![#F8F9FF](https://placehold.it/15/F8F9FF/000000?text=%20) `#F8F9FF` |
+| Light Wisteria - primary | ![#ce89ce](https://via.placeholder.com/15/ce89ce/000000?text=%20) `#ce89ce` |
+| Slate blue -secondary    | ![#4c54c9](https://via.placeholder.com/15/5B63CE/000000?text=%20) `#5B63CE` |
+| Midle Blue Green -accent | ![#8DDDD2](https://via.placeholder.com/15/8DDDD2/000000?text=%20) `#8DDDD2` |
+| Raisin black - dark      | ![#1B212F](https://via.placeholder.com/15/1B212F/000000?text=%20) `#1B212F` |
+| Ghost white - white      | ![#F8F9FF](https://via.placeholder.com/15/F8F9FF/000000?text=%20) `#F8F9FF` |
 
 #### :bookmark: Section colours
 
